@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>FEMA http://www.fema.gov/fhm/fq_q3.shtm</origin>
+<pubdate>Unknown - Circa 1996</pubdate>
+<title>FEMA Special Flood Hazard Areas (FEMA Q3 Data)</title>
+<geoform>vector digital data</geoform>
+<onlink>http://www.fema.gov/fhm/fq_q3.shtm</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>FEMA Digital Q3 Data.  Please refer to FEMA's guidelines for appropriate use of Q3 Digital Data.  
+
+http://www.fema.gov/fhm/fq_q3.shtm#q355.
+
+
+FEMA specifically states that the hard copy FIRMs serve as the official legal representation of any SFHA delineations.  
+
+FEMA Q3 datasets were generally produced in the mid-to-late 1990's (ours were produced in 1996).  THE SFHA DELINEATIONS MAY BE MUCH OLDER THAN 1996 AND MAY BE ASSOCIATED WITH FLOOD STUDIES THAT WERE COMPLETED IN THE 1970'S, 1980'S, OR EARLIER.  
+
+Q3 DATA DOES NOT INCLUDE BASE FLOOD ELEVATION (BFE) INFORMATION.  THE ORIGINAL FIRM PANEL FOR THE AREA MUST BE REFERRED TO IF THIS INFORMATION IS NEEDED.</abstract>
+<purpose>To provide a digital representation of SFHA's for use in GIS applications.</purpose>
+<supplinf>Please refer to FEMA's documentation concerning Q3 data @ http://www.fema.gov/fhm/fq_q3.shtm</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+</sngdate>
+</timeinfo>
+<current>Circa 1996</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.894399</westbc>
+<eastbc>
+-82.167706</eastbc>
+<northbc>
+35.828950</northbc>
+<southbc>
+35.405966</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>UNESCO Online Thesaurus</themekt>
+<themekey>flood</themekey>
+</theme>
+</keywords>
+<accconst>None.
+
+http://www.lib.ncsu.edu/gis/fema.html
+
+http://www.esri.com/data/download/fema/index.html
+
+www.ncfloodmaps.com</accconst>
+<useconst>FOR REFERENCE ONLY.  Legal determinations and enforcement decisions should be made using a hard copy FIRM panel of the area in question.  The paper Flood Insurance Rate Map is the official document.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntorg>FEMA or a FEMA Map Specialist</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>Unavailable</addrtype>
+<address>Unavailable</address>
+</cntaddr>
+<cntvoice>1-877-FEMA MAP</cntvoice>
+<cntfax>Unavailable</cntfax>
+<cntemail>FEMAMapSpecialist@mapmodteam.com</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>FEMA  http://www.fema.gov/fhm/fq_q3.shtm</datacred>
+<secinfo>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>http://www.fema.gov/fhm/fq_q3.shtm</attraccr>
+</attracc>
+<logic>http://www.fema.gov/fhm/fq_q3.shtm</logic>
+<complete>http://www.fema.gov/fhm/fq_q3.shtm</complete>
+<posacc>
+<horizpa>
+<horizpar>http://www.fema.gov/fhm/fq_q3.shtm</horizpar>
+<qhorizpa>
+<horizpav>1:24000</horizpav>
+<horizpae>Per Q3 documentation http://www.fema.gov/fhm/fq_q3.shtm</horizpae>
+</qhorizpa>
+</horizpa>
+<vertacc>
+<vertaccr>http://www.fema.gov/fhm/fq_q3.shtm</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>FEMA</origin>
+<pubdate>Circa 1996</pubdate>
+<pubtime>Unknown</pubtime>
+<title>FEMA Q3 Data</title>
+<geoform>vector digital data</geoform>
+<onlink>http://www.fema.gov/fhm/fq_q3.shtm</onlink>
+</citeinfo>
+</srccite>
+<srcscale>per FIRM panel</srcscale>
+<typesrc>disc</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>Early 1900's</begdate>
+<endtime>1996</endtime>
+</rngdates>
+</timeinfo>
+<srccurr>Vectorized FIRM Panels as of 1996.  The delineations and associated flood studies may be much older (1970's, 1980's etc..)</srccurr>
+</srctime>
+<srccitea>Q3 Statewide CD-ROMs</srccitea>
+<srccontr>Generally,  Q3 Data was published via Statewide CD-ROMs and was organized (tiled) by County.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>M:\Engineering\GISGeneral\DataDevelopment\Metadata\FIRM panel index.xml</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>1018</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000103</absres>
+<ordres>0.000103</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+eng.ENG.BC_SFHAs</enttypl>
+</enttyp>
+<attr>
+<attrlabl>Shape.len</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+</attr>
+<attr>
+<attrlabl>ZONE</attrlabl>
+</attr>
+<attr>
+<attrlabl>FLOODWAY</attrlabl>
+</attr>
+<attr>
+<attrlabl>ENG_ENG_BC_SFHAS_AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.area</attrlabl>
+</attr>
+<attr>
+<attrlabl>LABEL</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape.area</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+</detailed>
+<overview>
+</overview>
+</eainfo>
+<metainfo>
+<metd>20100413</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville Engineering Dept.</cntorg>
+<cntper>Nick Harvey</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>PO Box 7148</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntfax>828-232-4517</cntfax>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+</metainfo>
+</metadata>

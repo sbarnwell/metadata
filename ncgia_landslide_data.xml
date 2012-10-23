@@ -1,0 +1,3384 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Richard M. Wooten assisted by Rebecca S. Latham, Kenneth A. Gillon, Thomas J. Douglas, Stephen J. Fuemmeler, Jennifer B. Bauer, and Anne C. Witt</origin>
+<pubdate>20060801</pubdate>
+<pubtime>Unknown</pubtime>
+<title>buncosde.BUNCOSDE.LandslideData</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Asheville, North Carolina</pubplace>
+<publish>North Carolina Geological Survey, Department of Environment and Natural Resources</publish>
+</pubinfo>
+<onlink>Server=bcgis; Service=5151; Database=buncosde; User=buncosde; Version=sde.DEFAULT</onlink>
+<lworkcit>
+<citeinfo>
+<origin>North Carolina Geological Survey</origin>
+<pubdate>20060629</pubdate>
+<title>North Carolina Slope Movement and Slope Movement Deposit Database</title>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The North Carolina slope movement-slope movement deposit (NCSM-SMD) database contains a detailed inventory of slope movements and slope movement deposits. The NCSM-SMD database includes slope movement and deposit type, location, dimensions, dates, geologic (rock and soil), geomorphic, hydrologic, and other site data for individual slope movements and slope movement deposits where known. Initial NCSM-SMD data collection by the North Carolina Geological Survey (NCGS) began in 1990, but the impetus to assemble these data arose from a collaborative effort, beginning in 2004, between the North Carolina Division of Emergency Management (NCDEM) and the NCGS, to establish a statewide inventory of geological hazards. Further impetus to develop the NCSM-SMD database resulted from at least 140 slope movements triggered by the inland tracking of hurricanes during September 2004. These slope movements resulted in a total of five deaths and at least 30 destroyed or heavily damaged homes in North Carolina.  As a result, the North Carolina General Assembly tasked the NCGS with developing landslide (slope movement) hazard maps for the 19 counties listed in the Hurricane Recovery Act of 2005.  This file contains the NCSM-SMD entries within Buncombe County and serves as a portion of the deliverables for completion of landslide hazard mapping in that county. The project data is stored in a MS Access database in the NCGS's Swannanoa office.</abstract>
+<purpose>These data provide an inventory of slope movements and slope movement deposits in Buncombe County North Carolina as of 1 August 2006 as part of the Landslide Hazard Mapping program commissioned by the NC General Assembly in the Hurricane Recovery Act of 2005.</purpose>
+<supplinf>This data set refers to professional publications in the attribute fields. These publications are:
+ASTM 2487-85, 1985, Standard Test Method for Classification of Soils for Engineering Purposes, Annual Book of ASTM Standards, Volume 04.08.
+
+ASTM 2488-84, 1984, Standard Practice for Description and Identification of Soils (Visual-Manual Procedure), Annual Book of ASTM Standards, Volume 04.08.
+
+Bates, R.L., and Jackson, J.A., eds., 1987, Glossary of geology:  3rd ed., American Geological Institute, 788 p.
+
+Bureau of Reclamation, Engineering Geology Field Manual.
+
+Clark, G.M., 1987, Debris slide and debris flow historical events in the Appalachians south of the glacial border, in Costa, J.E., Wieczorek, G.F., eds., Debris flows/avalanches:  process, recognition, and mitigation:  Geological Society of America reviews in engineering geology v. VII, p. 125-138.
+
+Cruden, D.M. and Varnes, D.J., 1996, Landslide types and processes, in Landslides: Investigation and Mitigation, Turner, A.K. and Schuster, R.L., eds. Transportation Research Board Special Report No. 247, National Research Council, National Academy Press, Washington, D.C., p. 36-75.
+
+Varnes, D.J., 1978, Slope movement types and processes, in Landslide Analysis and Control, edited by R.L. Schuster and R.J. Krizak, Transportation Research Board Special Report No. 176, National Academy of Sciences, Washington, D.C., p. 11-33.
+
+Williamson, D.A., 1984, Unified rock classification system, Bulletin of the Association of Engineering Geologists, vol. XXI, no. 3, August, 1984, pp 345-354.
+
+List of abbreviations:
+
+ASU:  Appalachian State University
+DEM:  Digital elevation model
+DOQQ:  Digital ortho quarter quandrangle
+EBCI:  Eastern Band of Cherokee Indians
+EM:  Emergency Management
+FHWA:  Federal Highway Administration
+HRD:  Highlands Ranger District
+LiDAR:  Light Detecting and Ranging
+LQS:  North Carolina Department of Environment and Natural Resources Land Quality Section
+MVSD:  Maggie Valley Sanitation District
+NCCGIA:  North Carolina Center for Geographic Information Analysis
+NCDEM:  North Carolina Division of Emergency Management
+NCDOT:  North Carolina Department of Transportation
+NCGS:  North Carolina Geological Survey
+NPS:  National Park Service
+NRCS:  Natural Resources Conservation Service
+TIMS:  NCDOT Traveler Information Management System
+USFS: United States Forest Service
+USGS:  United States Geological Survey
+
+Glossary of commonly used terms:
+
+apex:  The uppermost and usually narrowest part of a debris fan deposit nearest the source area of the fan.
+
+azimuth:  Bearing of a linear geologic structure measured in a vertical plane that passes through the structure.
+
+bearing:  The horizontal direction of a line on the Earth's surface with reference to the cardinal points of the compass.
+
+bedding:  The arrangement of sedimentary rock into layers of various thicknesses.
+
+blowout:  A rare to common type of slope failure in which material appears to burst forth from the ground and then proceed downslope as overland flow.  These are possibly caused by excessive pore water pressure. (from Clark, 1987)
+
+brittle fault:  A displacement or offset within a rock mass characterized by brittle (non plastic) behavior evidenced by angular broken rock fragments or minerals.
+
+clay:  A fine-grained soil that can be made to exhibit plasticity within a range of water contents and that exhibits considerable strength when air dry having a diameter less than 0.003 inches as defined by ASTM 2487-85.
+
+compositional layering:  An outcrop- or hand sample-scale structure in metamorphic rocks produced by subparallel layers of various origins that cannot be confidently identified as bedding.
+
+creep:  The slow, more or less continuous downslope movement of mineral, rock, and soil particles by gravity.
+
+cut slope:  A slope exposed by excavating earth materials.
+
+debris flow:  A type of slope movement in which the displaced mass is composed of debris and the water content in the displaced mass is sufficient for the material to liquefy and resemble a viscous fluid.
+
+debris slide:  A slope movement initiated by slippage along a well-defined failure surface that is usually planar or curvi-planar in which the displaced mass is composed of debris. Slides are divided into two classes, rotational and translational. Slides usually consist of displaced and deformed blocks of material.
+
+debris slide-flow:  A slope movement with characteristics of a debris slide and a debris flow. A slope movement may begin as a debris slide, and then mobilize into a debris flow if sufficient water is available.
+
+deposit:  Earth material of any type that has accumulated by some natural process or agent.
+
+dip:  The angle (0-90 degrees) that a sloping surface makes with a horizontal plane.
+
+ductile fault:  A displacement or offset within a rock mass characterized by plastic (non-brittle) behaviousr of rock and mineral fragments evidenced by elongated, non-angular rock fragments and minerals.
+
+earth flow:  A type of slope movement in which the displaced mass is composed of earth and the water content in the displaced mass is sufficient for the material to liquefy and resemble a viscous fluid.
+
+earth slide:  A slope movement initiated by slippage along a well-defined failure surface that is usually planar or curvi-planar in which the displaced mass is composed of debris.
+
+embankment:  Man-placed deposits of natural earth materials, example rock, soil, or gravel, used to extend a side slope or a land surface, example for a roadway or building site, build up low-lying land, hold back water, example a dam, or fill in an enclosed space, example mine workings. Synonymous with man-made fill, but distinguished from naturally occurring, sedimentary fill.
+
+felsic:  An igneous or metamorphic rock having abundant light colored minerals (chiefly feldspar and quartz) in its composition; also, said of those minerals.
+
+foliation:  The planar arrangement of textural or structural features in a metamorphic rock that results from flattening or alignment of the constituent mineral grains.
+
+foot slope:  The lower gentle slope of a hillside below a steep rock face or escarpment including lower slopes of diminishing steepness; used here to generally designate the lower third of a hillslope.
+
+formation:  A body of rock identified by its unique lithologic characteristics and stratigraphic position.
+
+fracture:  A general term for any break in a rock, whether or not it causes displacement, due to mechanical failure by stress.  (see joint)
+
+gravel:  An unconsolidated, natural accumulation of rock fragments resulting from erosion and consisting predominantly of particles larger than sand but smaller than cobbles greater than 0.19 inches and smaller than 3 inches as defined by ASTM 2487-85.
+
+ground water:  Water below the surface of the Earth. Also spelled: groundwater, ground-water.
+
+head:  The upper parts of the slope movement material in contact between the displaced material and the main scarp.
+
+igneous rock:  A rock that solidified from molten or partly molten magma.
+
+intrusive:  Igneous rocks crystallized from magma beneath the surface of the Earth.
+
+joint:  A fracture or parting in a rock, without displacement.  (see fracture)
+
+landslide:  An informal term for a wide variety of mass movement landforms and processes involving the downslope transport, under gravitational influence, of soil and rock material en masse. The term "slope movement" is used here instead to include movement by flowing, falling and sliding.
+
+LiDAR:  Topographic data obtained by Light Detecting and Ranging method and provided by N.C. Floodplain Mapping Program at 6 m pixel resolution.
+
+lithology:  The description of rocks, especially in hand specimen and in outcrop, on the basis of such characteristics as color, mineral composition, and grain size (adj lithologic).
+
+mafic:  An igneous or metamorphic rock composed chiefly of one or more ferromagnesian, dark-colored minerals; also, said of those minerals.
+
+metaigneous rock: a metamorphosed igneous rock.
+
+metamorphic rock:  A rock derived from metamorphism of a pre-existing rock.
+
+metamorphism:  Solid-state recrystallization of a pre-existing rock by heat and pressure.
+
+metasedimentary rock:  A metamorphosed sedimentary rock.
+
+midslope:  the middle third of a slope proportioned approximately from ridge top to toe slope.
+
+mineral:  A naturally occurring, inorganic substance having an orderly internal crystalline structure,
+characteristic chemical composition, and physical properties.
+
+pebble:  A general term for a small, rounded, water-worn stone; specifically, a rock fragment larger than a granule and smaller than a cobble, having a diameter in the range of 4 mm to 64 mm.
+
+plunge:  The inclination from horizontal of a linear structure, measured in the vertical plane.
+
+pore water:  Subsurface water in the voids of rock, sediment, or soil.
+
+quadrangle:  A rectangular area bounded by parallels of latitude and meridians of longitude. In this database, "quadrangle" means a USGS 7.5-minute topographic quadrangle map, 1:24,000 scale.
+
+regolith:  A general term for the layer or mantle of fragmental and unconsolidated rock material that nearly everywhere forms the surface of land and overlies or covers bedrock. It includes alluvium, colluvium, residuum, debris, earth, and soil.
+
+rock fall:  A type of slope movement in which a single mass of rock of any size is detached from a steep slope or cliff along a surface on which little or no shear displacement occurs. The detached material descends mostly through the air by free fall, bounding, or rolling.
+
+rock slide:  A slope movement initiated by slippage along a well-defined failure surface that is usually planar or curvi-planar in which the displaced mass is composed of rock that was intact and in its natural place before the initiation of movement.
+
+rotational movement:  A term used to describe the type of movement in a slide in which the displaced material has moved along a curved, concave upward, failure surface.
+
+sand:  A rock or mineral fragment or a detrital particle of any composition smaller than a granule and larger than a coarse silt grain, having a diameter between 0.003 inches and 0.19 inches as defined by ASTM 2487-85.
+
+saprolite:  A soft, earthlike, completely decomposed, or weathered, in-place rock material typically formed in humid environments. Saprolite is characterized by the preservation of structures that were present in the unweathered rock.
+
+scar:  A cliff, precipice, or other steep slope, that corresponds to the zone of depletion, or the area from which a slope movement originated.
+
+scarp:  A cliff like face or slope that breaks the general continuity of the land surface around or in a slope movement, and coincides with a rupture of the ground surface with differential displacement. The main scarp is above the head of the slope movement, and usually forms the upper periphery of the displaced mass; a minor scarp is a rupture of the ground surface with differential displacement in the body of the displaced mass.
+
+sediment:  Loose, unconsolidated, fragmental material that originates from weathering of rocks and is transported or deposited by air, water, or ice.
+
+sedimentary rock:  A rock resulting from the consolidation of loose sediment that has accumulated in layers; also a rock formed by precipitation from solution, or an organic rock consisting of the remains or secretions of plants and animals.
+
+shear strength:  The internal resistance of a body to shear stress.
+
+silt:  A soil less than 0.003 inches in diameter that is nonplastic or very slightly plastic and that exhibits little or no strength when air dry as defined by ASTM 2487-85.
+
+slickenlines:  Grooves and ridges that appear on polished fault surfaces; commonly associated with brittle faults.
+
+slope movement:  The gradual or rapid downslope movement by falling, flowing, or sliding or combinations of these of regolith or rock by gravity. Used here in place of the term 'landslide.'
+
+slide:  A slope movement initiated by slippage along a well-defined failure surface that is usually planar or curvi-planar. Slides are divided into two classes, rotational and translational. Slides usually consist of displaced and deformed blocks of material.
+
+strike:  The direction or trend of a planar surface in bedrock, example a bedding, foliation, or fault plane, as it intersects the horizontal.
+
+structure:  A feature in the rock that results from rock deformation.
+
+sulfidic:  A modifier for a rock that contains a visible component of sulfide minerals (e.g., pyrite, pyrhotite, cahlcopyrite).
+
+surficial deposit:  An unconsolidated and residual, alluvial, or glacial deposits lying on bedrock or occurring on the Earth's surface. (see regolith)
+
+tension crack:  A crack or rupture in the ground surface caused by extension or tensile stress but not showing differential vertical displacement. With continued vertical displacement, a tension crack can become a scarp.
+
+toe:  The lowest part of a slope, slope movement or slope movement deposit.
+
+topographic map:  A map showing the topographic features of the land surface.
+
+track:  The path of a channelized debris flow between the scar or initiation zone upslope, and the toe or depositional area downslope. The track usually coincides with a pre-existing stream channel or drainage way.
+
+translational movement:  A term used to describe the type of movement in a slide in which the displaced material has moved along a generally planar failure surface.
+
+upper slope:  The upper third of a slope proportioned from the ridge top to the toe slope but excluding the ridge top.
+
+weathered-rock slide:  A term used to describe a rockslide where the displaced rock is partly- to completely-decomposed (in accordance with Williamson (1984)) from physical and chemical weathering processes.
+
+weathering:  The physical disintegration and chemical decomposition of rock at the Earth's surface.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20060801</caldate>
+<time>unknown</time>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.773598</westbc>
+<eastbc>
+-82.207163</eastbc>
+<northbc>
+35.800724</northbc>
+<southbc>
+35.425877</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>landslide</themekey>
+<themekey>debris flow</themekey>
+<themekey>slope movement</themekey>
+<themekey>slope movement deposit</themekey>
+<themekey>slope</themekey>
+<themekey>hazards</themekey>
+<themekey>DEM</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>North Carolina</placekey>
+<placekey>Buncombe County</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>The North Carolina Department of Environment and Natural Resources (NCDENR), North Carolina Geological Survey (NCGS) is charged by the State of North Carolina to develop landslide hazard assessment maps for the Blue Ridge region of western North Carolina.  NCGS is committed to offering its users accurate, useful, and current information.  All electronic and/or hardcopy products (maps, data, and text, etc.) produced by this landslide hazard assessment program are considered public information (unless otherwise noted) and may be distributed or copied.  These products, however, are intended to serve for general planning purposes only, and are provided on an "as is" basis. USE OF THESE MATERIALS CONSTITUTES ACCEPTANCE OF THIS DISCLAIMER OF LIABILITY.  Therefore, the client must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. The user must be cautious when using these data, as none of the data represented here are perfect.  Also, as in many complex scientific endeavors, error can be expected.  In no event shall NCDENR, NCGS, or its employees be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement or substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of these data, even if advised of the possibility of such damage.</useconst>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>North Carolina Geologic Survery collects locations and maintains a Microsoft Access database of slope movement and slope movement deposits. The database includes rock and soil classification, location information, geomorphic site description and surface and ground water conditions. The data is converted from Access to an ESRI shapefile. All attributes are reviewed by the staff geologists.</attraccr>
+</attracc>
+<logic>Using Latitude/Longitude values for each record a XY event theme was created for each record as a point in the Slope Movement database.  The event theme was then converted into a point shapefile in ESRI ArcGIS.</logic>
+<complete>These data represent discrete, point locations of slope movements and slope movement deposits documented by the NCGS.</complete>
+<lineage>
+<procstep>
+<procdesc>A data source provided information to the NCGS concerning a slope movement or a slope movement deposit.  Where site visits were made, NCGS staff visited the location of the landslide to collect detailed information on location, geomorphology, soil and rock properties, and hydrologic conditions at the initiation zones of slope movements or at the apexes of slope movement deposits. All structural measurements were made using Brunton compass unless otherwise noted; all measurements follow right hand rule. This information was collected using the best professional judgment of the NCGS staff by hand either in a field notebook or on a landslide field sheet.  If a site visit was not made, all pertinent information that could be reasonably obtained through a literary source or digitally using Arc GIS was collected.  Data was then entered into an Access database.</procdesc>
+<procdate>2006</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Richard M. Wooten</cntper>
+<cntorg>North Carolina Geological Survey, Department of Environment and Natural Resources</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2090 U.S. Highway 70</address>
+<city>Swannanoa</city>
+<state>North Carolina</state>
+<postal>28778</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-296-4500 ext.4632</cntvoice>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\humee\LOCALS~1\Temp\xml1328.tmp</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\work\denr\landslides.shp.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=bcgis1; Service=5151; Database=buncosde; User=buncosde; Version=sde.DEFAULT</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>152</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>State Plane Coordinate System 1983</gridsysn>
+<spcs>
+<spcszone>3200</spcszone>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>609601.220000</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</spcs>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000032</absres>
+<ordres>0.000032</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+buncosde.BUNCOSDE.LandslideData</enttypl>
+<enttypd>Locations of slope movements and slope movement deposits in Buncombe County, North Carolina</enttypd>
+<enttypds>North Carolina Geological Survey</enttypds>
+</enttyp>
+<attr>
+<attrlabl>NCGSInvs</attrlabl>
+<attrdef>The initial or initials of NCGS investigators</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Initials of Investigator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+</attr>
+<attr>
+<attrlabl>PROJECT</attrlabl>
+</attr>
+<attr>
+<attrlabl>QUAD_24K</attrlabl>
+</attr>
+<attr>
+<attrlabl>NAME</attrlabl>
+</attr>
+<attr>
+<attrlabl>SM_MAT</attrlabl>
+</attr>
+<attr>
+<attrlabl>SM_MECH</attrlabl>
+</attr>
+<attr>
+<attrlabl>SMD_TYPE</attrlabl>
+</attr>
+<attr>
+<attrlabl>MVMTDATE</attrlabl>
+</attr>
+<attr>
+<attrlabl>COL_DATE</attrlabl>
+</attr>
+<attr>
+<attrlabl>NC_CNTY</attrlabl>
+</attr>
+<attr>
+<attrlabl>IZLATDD</attrlabl>
+</attr>
+<attr>
+<attrlabl>IZLONGDD</attrlabl>
+</attr>
+<attr>
+<attrlabl>APXLATDD</attrlabl>
+</attr>
+<attr>
+<attrlabl>APXLONGDD</attrlabl>
+</attr>
+<attr>
+<attrlabl>ROAD</attrlabl>
+</attr>
+<attr>
+<attrlabl>RD_AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>SA_ASPCT</attrlabl>
+</attr>
+<attr>
+<attrlabl>DATA_SRC</attrlabl>
+</attr>
+<attr>
+<attrlabl>LOC_CONF</attrlabl>
+</attr>
+<attr>
+<attrlabl>EL_HEAD</attrlabl>
+</attr>
+<attr>
+<attrlabl>EL_APEX</attrlabl>
+</attr>
+<attr>
+<attrlabl>EL_TOE</attrlabl>
+</attr>
+<attr>
+<attrlabl>SLP__CNFG</attrlabl>
+</attr>
+<attr>
+<attrlabl>G_POS</attrlabl>
+</attr>
+<attr>
+<attrlabl>G_SHAPE</attrlabl>
+</attr>
+<attr>
+<attrlabl>G_STRUCT</attrlabl>
+</attr>
+<attr>
+<attrlabl>D_MASS_L</attrlabl>
+</attr>
+<attr>
+<attrlabl>D_MASS_W</attrlabl>
+</attr>
+<attr>
+<attrlabl>D_MASS_T</attrlabl>
+</attr>
+<attr>
+<attrlabl>TRKLENG</attrlabl>
+</attr>
+<attr>
+<attrlabl>DAMAGE</attrlabl>
+</attr>
+<attr>
+<attrlabl>MVMT_HIS</attrlabl>
+</attr>
+<attr>
+<attrlabl>UNIT1985</attrlabl>
+</attr>
+<attr>
+<attrlabl>OTHR_MU</attrlabl>
+</attr>
+<attr>
+<attrlabl>SRCE_VEG</attrlabl>
+</attr>
+<attr>
+<attrlabl>ORIGGSL</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH_1</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH_2</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH_3</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH1MOD</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH2MOD</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH3MOD</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH1MN1</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH1MN2</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH2MN1</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH2MN2</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH3MN1</attrlabl>
+</attr>
+<attr>
+<attrlabl>LITH3MN2</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ID</attrlabl>
+<attrdef>Internal ascension number.</attrdef>
+<attrdefs>North Carolina Geological Survey</attrdefs>
+<attrdomv>
+<udom>Sequential database number beginning with 1.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Type</attrlabl>
+<attrdef>The type of entry in the database</attrdef>
+<attrdefs>North Carolina Geological Survey</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Process</edomv>
+<edomvd>A known specific slope movement where a movement mechanism and/or date is known, or can be readily inferred</edomvd>
+<edomvds>North Carolina Geological Survey</edomvds>
+</edom>
+<edom>
+<edomv>Deposit</edomv>
+<edomvd>A slope movement deposit that cannot be associated with a specific slope movement event and is typically prehistoric in age</edomvd>
+<edomvds>North Carolina Geological Survey</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SULLITH1</attrlabl>
+</attr>
+<attr>
+<attrlabl>SULLITH2</attrlabl>
+</attr>
+<attr>
+<attrlabl>SULLITH3</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC1AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC1DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC2AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC2DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC3AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FRAC3DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>BRFLTAZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>BRFLTDIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>BRFLTTHK</attrlabl>
+</attr>
+<attr>
+<attrlabl>DLFLTAZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>DLFLTDIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>DLFLTTHK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SLBRG</attrlabl>
+</attr>
+<attr>
+<attrlabl>SLPLUNGE</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL1AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL1DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL2AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL2DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL3AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>FOL3DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>Project</attrlabl>
+<attrdef>Name of the project for which the data was collected, example Blue Ridge Parkway or Landslide Hazard Mapping</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Name of project</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL1DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>Quad_24K</attrlabl>
+<attrdef>the USGS 7.5-minute topographic quadrangle name</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Alarka</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Corbin Knob</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Franklin</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Glenville</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Greens Creek</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Hewitt</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Highlands</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Prentiss</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Rabun Bald</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Rainbow Springs</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Scaly Mountain</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Topton</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Wayah Bald</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+<edom>
+<edomv>Wesser</edomv>
+<edomvd>24k quadrangle name</edomvd>
+<edomvds>USGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL2DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>BDG1AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>BDG1DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>BDG2AZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>BDG2DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>Name</attrlabl>
+<attrdef>The informal geographic name of slope movement designated by NCGS, example Charley Branch #4</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Naming convention for internal purposes</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC1DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SM_Mat</attrlabl>
+<attrdef>The classification of slope movement material as one of the following: earth, debris, rock, weathered rock, composite - specify, other - specify; this in combination with the slope movement mechanism provides the type of slope movement; classified according to Varnes (1978) and Cruden and Varnes (1996.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Earth</edomv>
+<edomvd>Regolith in which about 80% or more of the particles are smaller than 2 mm. Earth is a general term used to classify the finer-grained type of material in the source area of a slope movement, examples earth flow or earth slide.</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>Debris</edomv>
+<edomvd>Regolith that contains a significant proportion of coarse material in which 20% to 80% of the particles are greater than sand sized in the range of 0.08 in or 2 mm. Debris is a general term used to classify the coarser-grained material in the source area of a slope movement, example debris flow or debris slide</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>Rock</edomv>
+<edomvd>An aggregate of one or more minerals, undifferentiated mineral matter, or solid organic material.</edomvd>
+<edomvds>Bates, R.L. and Jackson, J.A., 1987</edomvds>
+</edom>
+<edom>
+<edomv>Weathered rock</edomv>
+<edomvd>Rock is partly to completely decomposed from physical and chemical processes.</edomvd>
+<edomvds>Williamson (1984)</edomvds>
+</edom>
+<edom>
+<edomv>composite - specify</edomv>
+<edomvd>a type of slope movement in which different types of movement occur in different areas and in different material of the displaced mass, sometimes simultaneously.</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>other - specify</edomv>
+<edomvd>Not one of the other broad catagories</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC2DIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>OTHER_SD</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1ORGN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1STRUC</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1ASTM</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1MTRX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1MCLR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1MCLSZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1CLSHP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1CLLI</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1CLWX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1THICK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL1RELDEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2ORGN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2STRUC</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2ASTM</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2MTRX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2MCLR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2MCLSZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2CLSHP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2CLLI</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2CLWX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2THICK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL2RELDEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3ORGN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3STRUC</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3ASTM</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3MTRX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3MCLR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3MCLSZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3CLSHP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3CLLI</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3CLWX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3THICK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL3RELDEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4ORGN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4STRUC</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4ASTM</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4MTRX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4MCLR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4MCLSZ</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4CLSHP</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4CLLI</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4CLWX</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4THICK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SL4RELDEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>DEP_VEG</attrlabl>
+</attr>
+<attr>
+<attrlabl>GNDWATR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SURFWATR</attrlabl>
+</attr>
+<attr>
+<attrlabl>GEO_X_SECT</attrlabl>
+</attr>
+<attr>
+<attrlabl>PLAN_MAP</attrlabl>
+</attr>
+<attr>
+<attrlabl>PHOTOS</attrlabl>
+</attr>
+<attr>
+<attrlabl>PRECDATA</attrlabl>
+</attr>
+<attr>
+<attrlabl>POLYGON</attrlabl>
+</attr>
+<attr>
+<attrlabl>LABTEST</attrlabl>
+</attr>
+<attr>
+<attrlabl>REMARKS1</attrlabl>
+</attr>
+<attr>
+<attrlabl>REMARKS2</attrlabl>
+</attr>
+<attr>
+<attrlabl>SOURCE1</attrlabl>
+</attr>
+<attr>
+<attrlabl>SOURCE2</attrlabl>
+</attr>
+<attr>
+<attrlabl>NCGSINVS</attrlabl>
+</attr>
+<attr>
+<attrlabl>SM_Mech</attrlabl>
+<attrdef>the classification of the slope movement mechanism</attrdef>
+<attrdefs>to Varnes (1978) and Cruden and Varnes (1996)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Composite - Specify</edomv>
+<edomvd>a type of slope movement in which different types of movement occur in different areas of the displaced mass, sometimes simultaneously</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>Fall</edomv>
+<edomvd>A type of slope movement in which material is detached from a steep slope or cliff along a surface on which little or no shear displacement occurs. The detached material descends mostly through the air by free fall, bounding, or rolling.</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>Flow</edomv>
+<edomvd>A type of slope movement in which the water content in the displaced mass is sufficient for the material to liquefy and resemble a viscous fluid</edomvd>
+<edomvds>Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>other - specify</edomv>
+<edomvd>Anything that does not fall under the broad catagories.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>slide - general</edomv>
+<edomvd>Downslope movement of a soil or rock mass occurring dominantly on surfaces of rupture or on relatively thin zones of intense shear strain. Used when mode of sliding is unknown.</edomvd>
+<edomvds>Cruden and Varnes (1996)</edomvds>
+</edom>
+<edom>
+<edomv>slide - rotational</edomv>
+<edomvd>A slide that moves along a surface of rupture that is curved and concave.</edomvd>
+<edomvds>Cruden and Varnes (1996)</edomvds>
+</edom>
+<edom>
+<edomv>slide - translational</edomv>
+<edomvd>A slide in which the mass displaces along a planner or undulating surface of rupture.</edomvd>
+<edomvds>Cruden and Varnes (1996)</edomvds>
+</edom>
+<edom>
+<edomv>spread</edomv>
+<edomvd>A slope movement in which a relatively intact body of material develops lateral fractures and slides over a softer, underlying material.  These often result from liquefaction.</edomvd>
+<edomvds>Varnes (1978) and Cruden and Varnes (1996)</edomvds>
+</edom>
+<edom>
+<edomv>topple</edomv>
+<edomvd>A slope movement in which material moves forward out of the slope about a point or axis below the center of gravity of the displaced mass.</edomvd>
+<edomvds>Varnes (1978) and Cruden and Varnes (1996)</edomvds>
+</edom>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SMD_Type</attrlabl>
+<attrdef>The classification of slope movement deposit.</attrdef>
+<attrdefs>Cruden, D.M. and Varnes, D.J., 1996</attrdefs>
+<attrdomv>
+<edom>
+<edomv>debris undifferentiated</edomv>
+<edomvd>A deposit of debris sized material that is known or reasonably inferred to be emplaced by mass wasting processes but lacks distinctive lobe, fan, or coalescing fan shape of a debris fan.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>debris fan</edomv>
+<edomvd>A deposit of debris-sized material that is known or reasonably inferred to be emplaced by mass wasting processes and has a distinctive lobe, fan, or coalescing fan shape.  Debris fan can include colluvial and alluvial components.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>earth undifferentiated</edomv>
+<edomvd>A deposit of earth sized material that is known or reasonably inferred to be emplaced by mass wasting processes but lacks distinctive lobe, fan, or coalescing fan shape.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>earth fan</edomv>
+<edomvd>A deposit of earth sized material that is known or reasonably inferred to be emplaced by mass wasting processes and has a distinctive lobe, fan, or coalescing fan shape.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>fan undifferentiated</edomv>
+<edomvd>A deposit of unknown grain size that has distinctive lobe, fan, or coalescing fan shape.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>colluvium undifferentiated</edomv>
+<edomvd>Slope movement deposits that mantle hillslopes without a distinctive fan shape or fabric indicating flow (e.g., imbrication).  This deposit is primarily emplaced by creep rather than by more rapid forms of mass wasting processes such as flow or sliding.  It is a general term applied to a deposit with an emplacement mechanism that is not known or reasonably inferred.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>block field</edomv>
+<edomvd>An accumulation of boulders or angular blocks of rock, with little or no fine sediment in the upper part over bedrock or other hillslope deposit without a cliff or a ledge above as an apparent source. Block fields usually occur on high mountain slopes where they are most extensive along slopes parallel to contour</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>block stream</edomv>
+<edomvd>A linear accumulation of boulders or angular blocks of rock, with little or no fine sediment in the upper part over bedrock or other hillslope deposit. Block streams usually occur at heads of ravines, as narrow bodies more extensive downslope than along slope.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>talus</edomv>
+<edomvd>A rock fragments of any size or shape, usually coarse and angular, derived from and lying at the base of a cliff or very steep rocky slope.</edomvd>
+<edomvds>NCGS based on Cruden, D.M. and Varnes, D.J., 1996</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>Combination of the defined values or anything that does not fall under the defined categories.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MvmtDate</attrlabl>
+<attrdef>date of the slope movement in month, day, year data format where known.  If the complete date is not known, month and year of failure or just year of failure has been entered.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Date</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Col_Date</attrlabl>
+<attrdef>date the data was collected in month, day, year data format</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Date</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NC_Cnty</attrlabl>
+<attrdef>The county name where the slope movement or slope movement deposit is located</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Buncombe</edomv>
+<edomvd>State of North Carolina</edomvd>
+<edomvds>State of North Carolina</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IZLatDD</attrlabl>
+<attrdef>The latitude of the initiation zone of a slope movement in decimal degrees to 5 decimal places if possible</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>35.002940</rdommin>
+<rdommax>35.3257</rdommax>
+<attrunit>Decimal Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IZLongDD</attrlabl>
+<attrdef>The longitude of the initiation zone of a slope movement in decimal degrees to 5 decimal places if possible</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-83.706180</rdommin>
+<rdommax>-83.172260</rdommax>
+<attrunit>Decimal Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ApxLatDD</attrlabl>
+<attrdef>The latitude of the apex of a slope movement deposit in decimal degrees to 5 decimal places if possible.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>35.000060</rdommin>
+<rdommax>35.326120</rdommax>
+<attrunit>Decimal Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ApxLongDD</attrlabl>
+<attrdef>The longitude of the apex of a sloe movement deposit in decimal degrees to 5 decimal places if possible.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>-83.731730</rdommin>
+<rdommax>-83.134670</rdommax>
+<attrunit>Decimal Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Road</attrlabl>
+<attrdef>Road name and/or road number affected by or in close proximity to the slope movement or slope movement deposit</attrdef>
+<attrdefs>NC DOT</attrdefs>
+<attrdomv>
+<udom>Road names and numbers</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Rd_Az</attrlabl>
+<attrdef>Azimuth orientation of the road</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SA_Aspct</attrlabl>
+<attrdef>The downslope aspect at the initiation zone of a slope movement or at the apex of a slope movement deposit.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Data_Src</attrlabl>
+<attrdef>The source of data, example NCGS, USFS, EM-Swain County</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Entities that informed NCGS of the slope movement or slope movement deposit</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Loc_Conf</attrlabl>
+<attrdef>Confidence in accuracy of latitude-longitude location</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>NCGS field verified - 7.5' Quad</edomv>
+<edomvd>USGS 7.5-minute topographic quadrangle with a positional accuracy accurate within a 400-foot radius in the worst case</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>NCGS field verified - GPS</edomv>
+<edomvd>field verified using GPS with an accuracy within a 40-foot radius</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>NCGS field verified - Aerial Photo</edomv>
+<edomvd>aerial photograph location accuracy varies, but is accurate within a 200-foot radius in the worst case</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>NCGS field verified - LiDAR</edomv>
+<edomvd>LiDAR is accurate within a 50-foot radius</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Field verified - Other Source</edomv>
+<edomvd>not field verified by NCGS, but field verified by another source with accuracy unknown</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Not field Verified - Specify Source</edomv>
+<edomvd>Unknown, location not field verified by NCGS or other known entities.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EL_Head</attrlabl>
+<attrdef>The elevation above mean sea level in feet determined from either USGS 7.5-minute topographic quadrangle or from the LiDAR DEM of head of slope movement</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>4600</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EL_Apex</attrlabl>
+<attrdef>The elevation above mean sea level in feet determined from either USGS 7.5-minute topographic quadrangle or from the LiDAR DEM of apex of slope movement deposit</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>4898</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EL_Toe</attrlabl>
+<attrdef>the elevation above mean sea level in feet determined from either the USGS 7.5-minute topographic quadrangle or from the LiDAR DEM of the toe of the slope movement or slope movement deposit.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>4740</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Slp__Cnfg</attrlabl>
+<attrdef>Configuration of slope on which movement or deposit occurred; options include: road cut, road embankment, road unspecified, unmodified, cut slope - not road related, embankment - not road related, river erosion, other-specify</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>road cut</edomv>
+<edomvd>A slope exposed by excavating earth material related to a roadway</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>road embankment</edomv>
+<edomvd>Man-placed deposits of natural earth materials used to extend a side slope or a land surface for a roadway</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>road unspecified</edomv>
+<edomvd>A roadway without a specified configuration</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>unmodified</edomv>
+<edomvd>Slope has been unmodified by man.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>cut slope - not road related,</edomv>
+<edomvd>A slope exposed by excavating earth materials not related to a roadway</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>embankment - not road related</edomv>
+<edomvd>Man-placed deposits of natural earth materials used to extend a side slope or a land surface for something other than a roadway</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>river erosion</edomv>
+<edomvd>Configuration formed through river erosional forces.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>Any other slope configuration that does not fall into the defined catagories</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>G_Pos</attrlabl>
+<attrdef>Relative geomorphic position of the initiation zone of a slope movement or the apex of a slope movement deposit.  This is determined visually from the USGS 7.5-minute topographic quadrangle or the LiDAR DEM by looking at the relative placement of the data point with respect to the top of the slope and the base of the slope.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>flood plain</edomv>
+<edomvd>The surface or strip of relatively smooth land adjacent to a river channel constructed by the present river in its existing regimen and covered with water when the river overflows its banks.</edomvd>
+<edomvds>Bates, R.L. and Jackson, J.W., 1987</edomvds>
+</edom>
+<edom>
+<edomv>midslope</edomv>
+<edomvd>Middle third of the slope that lies topographically below the upper slope and above the toe slope</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>Combination of the other values</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>ridge top</edomv>
+<edomvd>Thin, narrow crest of the hillside</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>toe slope</edomv>
+<edomvd>Lower third of the slope that lies topographically below the mid slope and above the flood plain</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>upper slope</edomv>
+<edomvd>Upper third of the slope that lies topographically below the ridge tope and above the mid slope</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>G_Shape</attrlabl>
+<attrdef>Relative geomorphic shape of the ground surface at the initiation zone of a slope movement.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>concave</edomv>
+<edomvd>a slope that curves inward</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>convex</edomv>
+<edomvd>a slope that curves outward</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>hollow</edomv>
+<edomvd>a slope that is concave parallel and perpendicular to the slope</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other - specify</edomv>
+<edomvd>slope shape different from the available options</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>planar</edomv>
+<edomvd>a slope that is flat and does not curve</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>G_Struct</attrlabl>
+<attrdef>Relative geomorphic structure at the initiation zone of a slope movement.</attrdef>
+<attrdefs>Cruden, D.M. and Varnes, D.J., 1996</attrdefs>
+<attrdomv>
+<edom>
+<edomv>dip slope</edomv>
+<edomvd>dip direction of the slope is coincident (within 15 degrees) to the dip direction of primary bedding or foliation of the bedrock</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>oblique slope</edomv>
+<edomvd>dip direction of the slope is at an oblique angle to the dip direction of primary bedding or foliation of the bedrock</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other - specify</edomv>
+<edomvd>geomorphic structure differs from the available options</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>scarp slope</edomv>
+<edomvd>dip direction of the slope is at an approximate 180-degree angle (within + 15 degrees) to the dip direction of primary bedding or foliation of the bedrock</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D_Mass_L</attrlabl>
+<attrdef>the estimated length in feet of the displaced mass of a slope movement or a slope movement deposit.  The estimate is made either visually while at the site or is scaled from an aerial photograph, USGS 7.5-minute topographic quadrangle, or LiDAR DEM.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>15400</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D_Mass_W</attrlabl>
+<attrdef>the estimated width in feet of the displaced mass of a slope movement measured at the initiation zone.  The estimate is made either visually while at the site or is scaled from an aerial photograph, USGS 7.5-minute topographic quadrangle, or LiDAR DEM</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>4900</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>D_Mass_T</attrlabl>
+<attrdef>the estimated thickness in feet of the displaced mass.  The estimate is usually made visually while at the site</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>68</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TrkLeng</attrlabl>
+<attrdef>the length in feet of a debris flow track from the head to the toe.  The estimate is made either visually while at the site or is scaled from an aerial photograph, USGS 7.5-minute topographic quadrangle, or LiDAR DEM</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>11880</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Damage</attrlabl>
+<attrdef>the text narrative of any damage or impacts of slope movement</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Written Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Mvmt_His</attrlabl>
+<attrdef>text narrative of movement history including dates, rates of movement if continued beyond initial date of movement, and information on any stabilization actions if known.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Written Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Unit1985</attrlabl>
+<attrdef>geologic map unit for the initiation point or apex as determined from the 1985 NCGS State Geologic Map</attrdef>
+<attrdefs>1985 NCGS State Geologic Map</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>1985 NCGS State Geologic Map</codesetn>
+<codesets>North Carolina Geologic Survey</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Othr_MU</attrlabl>
+<attrdef>geologic map unit for the initiation point of apex as determined from any other geologic map of the area.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Other sources</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Srce_Veg</attrlabl>
+<attrdef>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.        Attribute_Definition_Source: NCGS</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Conifer Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Deciduous Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>grass-shrub</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Grass-shrub-tree</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Mixed Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>none</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Pavement-hard surface</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OrigGSl</attrlabl>
+<attrdef>Slope in degrees of the original ground surface at the initiation zone or; abbreviations in parentheses indicate the location or type of slope where the measurement was taken (i.e., "e" for embankment, "c" for cut, "o" for original, undisturbed ground, "rflank" for right flank)</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>22</rdommin>
+<rdommax>70</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith_1</attrlabl>
+<attrdef>Field classification of primary rock type at the initiation zone.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith_2</attrlabl>
+<attrdef>Field classification of secondary rock type at the initiation zone.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith_3</attrlabl>
+<attrdef>Field classification of secondary or tertiary rock type at the initiation zone.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith1Mod</attrlabl>
+<attrdef>Textural and/or compositional modifier describing lithology unit 1</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith2Mod</attrlabl>
+<attrdef>Textural and/or compositional modifier describing lithology unit 2</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith3Mod</attrlabl>
+<attrdef>Textural and/or compositional modifier describing lithology unit 3</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith1Mn1</attrlabl>
+<attrdef>Primary mineralogy from visual classification for lithology unit 1</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith1Mn2</attrlabl>
+<attrdef>Secondary mineralogy from visual classification for lithology 1</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith2Mn1</attrlabl>
+<attrdef>Primary mineralogy from visual classification for lithology 2</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith2Mn2</attrlabl>
+<attrdef>Secondary mineralogy from visual classification for lithology 2</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith3Mn1</attrlabl>
+<attrdef>Primary mineralogy from visual classification for lithology 3</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description rock type</udom>
+</attrdomv>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Lith3Mn2</attrlabl>
+<attrdef>Secondary mineralogy from visual classification for lithology 3</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Mineralogy</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>URCS_1</attrlabl>
+<attrdef>Unified rock classification of lithology 1</attrdef>
+<attrdefs>Williamson (1984).</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984).</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>URCS_2</attrlabl>
+<attrdef>Unified rock classification of lithology 2</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>URCS__3</attrlabl>
+<attrdef>rock classification of lithology 3</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SulLith1</attrlabl>
+<attrdef>Visual estimate of relative percent of sulfides present in lithology 1</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>&lt;2%</edomv>
+<edomvd>Less than two percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>2% - 5%</edomv>
+<edomvd>Between two and five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>&gt;5%</edomv>
+<edomvd>Greater then five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>not visible</edomv>
+<edomvd>No sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>Field to capture other relevant information</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SulLith2</attrlabl>
+<attrdef>Visual estimate of relative percent of sulfides present in lithology 2</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>not visible</edomv>
+<edomvd>No sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>&lt;2%</edomv>
+<edomvd>Less then two percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>2% - 5%</edomv>
+<edomvd>Between two and five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>&gt;5%</edomv>
+<edomvd>Greater then five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>A field to capture relevant information</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SulLith3</attrlabl>
+<attrdef>Visual estimate of relative percent of sulfides present in lithology 3</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>not visible</edomv>
+<edomvd>No sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>&lt;2%</edomv>
+<edomvd>Less then two percent sulfides visible.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>2% - 5%</edomv>
+<edomvd>Between two and five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>5%</edomv>
+<edomvd>Greater then five percent sulfides visible</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>Field to capture other relevant information</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac1AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac1Dip</attrlabl>
+<attrdef>Measured dip of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac2AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac2Dip</attrlabl>
+<attrdef>Measured dip of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac3AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Frac3Dip</attrlabl>
+<attrdef>Measured dip of a fracture/joint in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BRFltAZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a brittle fault/fault zone;</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BRFltDip</attrlabl>
+<attrdef>Measured dip of a brittle fault/fault zone in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BRFltThk</attrlabl>
+<attrdef>Approximate thickness of a brittle fault/fault zone in feet.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>0</rdommax>
+<attrunit>feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DLFltAZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a ductile fault/fault zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DLFltDip</attrlabl>
+<attrdef>Measured dip of a ductile fault/fault zone in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DLFltThk</attrlabl>
+<attrdef>Approximate thickness of a ductile fault/fault zone in feet</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>0</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SLBrg</attrlabl>
+<attrdef>Bearing of slickenlines measured on a brittle fault;</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SLPlunge</attrlabl>
+<attrdef>Plunge of slickenlines measured on a brittle fault</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol1AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol1Dip</attrlabl>
+<attrdef>Measured dip of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol2AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol2Dip</attrlabl>
+<attrdef>Measured dip of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol3AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Fol3Dip</attrlabl>
+<attrdef>Measured dip of a foliation in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL1AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of compositional layering in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL1Dip</attrlabl>
+<attrdef>Measured dip of compositional layering in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL2AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of compositional layering in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CL2Dip</attrlabl>
+<attrdef>Measured dip of compositional layering in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Bdg1AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of bedding in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Bdg1Dip</attrlabl>
+<attrdef>Measured dip of bedding in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Bdg2AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of bedding in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Bdg2Dip</attrlabl>
+<attrdef>Measured dip of bedding in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC1AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of an intrusive contact in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC1Dip</attrlabl>
+<attrdef>Measured dip of an intrusive contact in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC2AZ</attrlabl>
+<attrdef>Measured strike in azimuth degrees of an intrusive contact in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>360</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IC2Dip</attrlabl>
+<attrdef>Measured dip of an intrusive contact in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>90</rdommax>
+<attrunit>Degrees</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Other_SD</attrlabl>
+<attrdef>other pertinent structural data that either does not have a predetermined category in the database or should be included for clarification purposes</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1Orgn</attrlabl>
+<attrdef>Origin of the primary soil/sediment in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>alluvium</edomv>
+<edomvd>Clay, silt, sand, gravel or similar unconsolidated detrital earthen material deposited during relatively recent geologic time by a stream or other body of running water. Alluvium usually contains rounded particles and usually collects in the channels and floodplains of creeks, streams, rivers, and lakes</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>colluvium</edomv>
+<edomvd>Any loose, heterogeneous, and unconsolidated mass of soil and rock particles deposited by rainwash, sheetwash, or slow, continuous downslope creep. Colluvium usually contains angular to subrounded rock particles and usually collects at the base or other low gradient portions of slopes or hillsides.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>residuum</edomv>
+<edomvd>An unconsolidated or partly weathered, parent material soil, that developed in place by the physical and chemical weathering from the consolidated rock on which it lies</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>fill</edomv>
+<edomvd>Man-placed deposits of natural earth materials.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1Struc</attrlabl>
+<attrdef>Relative overall textural classification of soil unit 1/primary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Clast Supported</edomv>
+<edomvd>a soil in which the majority is composed of coarse-grained rock masses that are in direct contact with one another</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Matrix Supported</edomv>
+<edomvd>soil is composed of coarse-grained rock fragments suspended in fine-grained soil, and the rock fragments are not typically in direct contact with one another.          Enumerated_Domain_Value_Definition_Source: NCGS</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other - Specify.</edomv>
+<edomvd>Some other make-up other then Clast or Matrix supported</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1ASTM</attrlabl>
+<attrdef>ASTM classification of soil unit 1/primary soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>b</edomv>
+<edomvd>boulder</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>c</edomv>
+<edomvd>cobble</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>g</edomv>
+<edomvd>gravel</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1Mtrx</attrlabl>
+<attrdef>ASTM classification of the fine-grained matrix of soil unit 1/primary soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Annual Book of Standards - Soils</codesetn>
+<codesets>ASTM 2488-84, 1984</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1MClr</attrlabl>
+<attrdef>matrix color of soil unit 1/primary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Color</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1MClSz</attrlabl>
+<attrdef>Maximum size of the coarse-grained portion of soil unit 1/primary soil measured in feet</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>15</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1ClShp</attrlabl>
+<attrdef>angularity of the coarse-grained portion of soil unit 1/primary soil</attrdef>
+<attrdefs>classified according to ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round-angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subrnd-subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subround</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1ClLi</attrlabl>
+<attrdef>general rock classification of rock fragments in soil unit 1/primary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1ClWx</attrlabl>
+<attrdef>general degree of weathering of rock fragments in soil unit 1/primary soil</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1Thick</attrlabl>
+<attrdef>approximate thickness of the soil unit 1/primary soil in feet; value may be a single number or an estimated range of soil thickness</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>General thickness of soil</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl1RelDen</attrlabl>
+<attrdef>relative consistency or compactness of soil unit 1/primary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Compact</edomv>
+<edomvd>Soil is difficult to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Dense</edomv>
+<edomvd>Soil must be loosened with pick to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Hard</edomv>
+<edomvd>Soil can be indented with thumbnail with difficulty</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Loose</edomv>
+<edomvd>Soil is easily excavated with hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soft</edomv>
+<edomvd>Soil is indented with fist and/or penetrated easily with thumb</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Stiff</edomv>
+<edomvd>Soil is penetrated with thumb but with great effort</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Soft</edomv>
+<edomvd>Soil is readily penetrated several inches with fist</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Stiff</edomv>
+<edomvd>Soil is readily indented with thumbnail</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2Orgn</attrlabl>
+<attrdef>Origin of the secondary soil/sediment in the initiation zone</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>alluvium</edomv>
+<edomvd>Clay, silt, sand, gravel or similar unconsolidated detrital earthen material deposited during relatively recent geologic time by a stream or other body of running water. Alluvium usually contains rounded particles and usually collects in the channels and floodplains of creeks, streams, rivers, and lakes.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>colluvium</edomv>
+<edomvd>Any loose, heterogeneous, and unconsolidated mass of soil and rock particles deposited by rainwash, sheetwash, or slow, continuous downslope creep. Colluvium usually contains angular to subrounded rock particles and usually collects at the base or other low gradient portions of slopes or hillsides.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>residuum</edomv>
+<edomvd>An unconsolidated or partly weathered, parent material soil, that developed in place by the physical and chemical weathering from the consolidated rock on which it lies</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>fill</edomv>
+<edomvd>Man-placed deposits of natural earth materials.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2Struc</attrlabl>
+<attrdef>Relative overall textural classification of soil unit 2/secondary soil; options include the following</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Clast Supported</edomv>
+<edomvd>a soil in which the majority is composed of coarse-grained rock masses that are in direct contact with one another.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Matrix Supported</edomv>
+<edomvd>soil is composed of coarse-grained rock fragments suspended in fine-grained soil, and the rock fragments are not typically in direct contact with one another.          Enumerated_Domain_Value_Definition_Source: NCGS</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other - Specify.</edomv>
+<edomvd>Some other make-up other then Clast or Matrix support</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2ASTM</attrlabl>
+<attrdef>ASTM classification of soil unit 2/secondary soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>b</edomv>
+<edomvd>boulder - A detached rock mass larger than a cobble, having a diameter greater than 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>c</edomv>
+<edomvd>cobble - A rock fragment larger than a pebble and smaller than a boulder, having a diameter in the range of 3 inches to 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>g</edomv>
+<edomvd>gravel - An unconsolidated, natural accumulation of rock fragments resulting from erosion and consisting predominantly of particles larger than sand but smaller than cobbles greater than 0.19 inches and smaller than 3 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2Mtrx</attrlabl>
+<attrdef>ASTM classification of the fine-grained matrix of soil unit 12/primary soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Annual Book of Standards - Soils</codesetn>
+<codesets>ASTM 2488-84, 1984</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2MClr</attrlabl>
+<attrdef>matrix color of soil unit 2/secondary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - color</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2MClSz</attrlabl>
+<attrdef>maximum size of the coarse-grained portion of soil unit 3/secondary soil measured in fee</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>15</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2ClShp</attrlabl>
+<attrdef>angularity of the coarse-grained portion of soil unit 2/secondary soil</attrdef>
+<attrdefs>ASTM 2488-84, 1984, Standard Practice for Description and Identification of Soils (Visual-Manual Procedure), Annual Book of ASTM Standards, Volume 04.08.</attrdefs>
+<attrdomv>
+<edom>
+<edomv>angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round-angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subrnd-subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subround</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2ClLi</attrlabl>
+<attrdef>general rock classification of rock fragments in soil unit 2/secondary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2ClWx</attrlabl>
+<attrdef>general degree of weathering of rock fragments in soil unit 2/secondary soil</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2Thick</attrlabl>
+<attrdef>approximate thickness of the soil unit 2/secondary soil in feet; value may be a single number or an estimated range of soil thickness</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>General thickness of soil</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl2RelDen</attrlabl>
+<attrdef>relative consistency or compactness of soil unit 2/secondary soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Compact</edomv>
+<edomvd>Soil is difficult to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Dense</edomv>
+<edomvd>Soil must be loosened with pick to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Hard</edomv>
+<edomvd>Soil can be indented with thumbnail with difficulty</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Loose</edomv>
+<edomvd>Soil is easily excavated with hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soft</edomv>
+<edomvd>Soil is indented with fist and/or penetrated easily with thumb</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Stiff</edomv>
+<edomvd>Soil is penetrated with thumb but with great effort</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Soft</edomv>
+<edomvd>Soil is readily penetrated several inches with fist</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Stiff</edomv>
+<edomvd>Soil is readily indented with thumbnail</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3Orgn</attrlabl>
+<attrdef>Origin of the primary soil/sediment in the deposit</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>alluvium</edomv>
+<edomvd>Clay, silt, sand, gravel or similar unconsolidated detrital earthen material deposited during relatively recent geologic time by a stream or other body of running water. Alluvium usually contains rounded particles and usually collects in the channels and floodplains of creeks, streams, rivers, and lakes.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>colluvium</edomv>
+<edomvd>Any loose, heterogeneous, and unconsolidated mass of soil and rock particles deposited by rainwash, sheetwash, or slow, continuous downslope creep. Colluvium usually contains angular to subrounded rock particles and usually collects at the base or other low gradient portions of slopes or hillsides.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>residuum</edomv>
+<edomvd>An unconsolidated or partly weathered, parent material soil, that developed in place by the physical and chemical weathering from the consolidated rock on which it lies</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>fill</edomv>
+<edomvd>Man-placed deposits of natural earth materials</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3Struc</attrlabl>
+<attrdef>Relative overall textural classification of soil unit 3/primary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Clast Supported</edomv>
+<edomvd>a soil in which the majority is composed of coarse-grained rock masses that are in direct contact with one another</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>Matrix Supported</edomv>
+<edomvd>a soil composed of coarse-grained rock fragments suspended in fin-grained soil</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>Other - Specify</edomv>
+<edomvd>Some other make-up other then Clast or Matrix supported</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3ASTM</attrlabl>
+<attrdef>ASTM classification of soil unit 3/primary deposit soil; abbreviations for this field include the following: b for boulder, c for cobble, and g for gravel</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>b</edomv>
+<edomvd>boulder - A detached rock mass larger than a cobble, having a diameter greater than 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>c</edomv>
+<edomvd>cobble - A rock fragment larger than a pebble and smaller than a boulder, having a diameter in the range of 3 inches to 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>g</edomv>
+<edomvd>gravel - An unconsolidated, natural accumulation of rock fragments resulting from erosion and consisting predominantly of particles larger than sand but smaller than cobbles greater than 0.19 inches and smaller than 3 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3Mtrx</attrlabl>
+<attrdef>ASTM classification of the fine-grained matrix of soil unit 3/primary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Annual Book of Standards - Soils</codesetn>
+<codesets>ASTM 2488-84, 1984</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3MClr</attrlabl>
+<attrdef>matrix color of soil unit 3/primary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Color</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3MClSz</attrlabl>
+<attrdef>maximum size of the coarse-grained portion of soil unit 3/primary deposit soil measured in feet</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>15</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3ClShp</attrlabl>
+<attrdef>angularity of the coarse-grained portion of soil unit 3/primary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round-angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subrnd-subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subround</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3ClLi</attrlabl>
+<attrdef>general rock classification of rock fragments in soil unit 3/primary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3ClWx</attrlabl>
+<attrdef>general degree of weathering of rock fragments in soil unit 3/primary deposit soil</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3Thick</attrlabl>
+<attrdef>approximate thickness of the soil unit 3/primary deposit soil in feet; value may be a single number or an estimated range of soil thickness</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>General thickness of soil</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl3RelDen</attrlabl>
+<attrdef>relative consistency or compactness of soil unit 3/primary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Compact</edomv>
+<edomvd>Soil is difficult to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Dense</edomv>
+<edomvd>Soil must be loosened with pick to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Hard</edomv>
+<edomvd>Soil can be indented with thumbnail with difficulty</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Loose</edomv>
+<edomvd>Soil is easily excavated with hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soft</edomv>
+<edomvd>Soil is indented with fist and/or penetrated easily with thumb</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Stiff</edomv>
+<edomvd>Soil is penetrated with thumb but with great effort</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Soft</edomv>
+<edomvd>Soil is readily penetrated several inches with fist</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Stiff</edomv>
+<edomvd>Soil is readily indented with thumbnail</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4Orgn</attrlabl>
+<attrdef>Origin of the secondary soil/sediment in the deposit</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>alluvium</edomv>
+<edomvd>Clay, silt, sand, gravel or similar unconsolidated detrital earthen material deposited during relatively recent geologic time by a stream or other body of running water. Alluvium usually contains rounded particles and usually collects in the channels and floodplains of creeks, streams, rivers, and lakes.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>colluvium</edomv>
+<edomvd>Any loose, heterogeneous, and unconsolidated mass of soil and rock particles deposited by rainwash, sheetwash, or slow, continuous downslope creep. Colluvium usually contains angular to subrounded rock particles and usually collects at the base or other low gradient portions of slopes or hillsides.</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+<edom>
+<edomv>residuum</edomv>
+<edomvd>An unconsolidated or partly weathered, parent material soil, that developed in place by the physical and chemical weathering from the consolidated rock on which it lies</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>fill</edomv>
+<edomvd>Man-placed deposits of natural earth materials</edomvd>
+<edomvds>NCGS based on Bates and Jackson (1987)</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4Struc</attrlabl>
+<attrdef>Relative overall textural classification of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Clast Supported</edomv>
+<edomvd>a soil in which the majority is composed of coarse-grained rock masses that are in direct contact with one another</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Matrix Supported</edomv>
+<edomvd>a soil composed of coarse-grained rock fragments suspended in fine-grained soil</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other - Specify</edomv>
+<edomvd>Some other make-up other than Clast or Matrix supported</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4ASTM</attrlabl>
+<attrdef>classification of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>b</edomv>
+<edomvd>boulder - A detached rock mass larger than a cobble, having a diameter greater than 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>c</edomv>
+<edomvd>cobble - A rock fragment larger than a pebble and smaller than a boulder, having a diameter in the range of 3 inches to 12 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>g</edomv>
+<edomvd>gravel - An unconsolidated, natural accumulation of rock fragments resulting from erosion and consisting predominantly of particles larger than sand but smaller than cobbles greater than 0.19 inches and smaller than 3 inches</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4Mtrx</attrlabl>
+<attrdef>ASTM classification of the fine-grained matrix of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Annual Book of Standards - Soils</codesetn>
+<codesets>ASTM 2488-84, 1984</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4MClr</attrlabl>
+<attrdef>matrix color of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Color</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4MClSz</attrlabl>
+<attrdef>maximum size of the coarse-grained portion of soil unit 4/secondary deposit soil measured in feet</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>15</rdommax>
+<attrunit>Feet</attrunit>
+</rdom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4ClShp</attrlabl>
+<attrdef>angularity of the coarse-grained portion of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>ASTM 2488-84</attrdefs>
+<attrdomv>
+<edom>
+<edomv>angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>other-specify</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>round-angular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subrnd-subangular</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+<edom>
+<edomv>subround</edomv>
+<edomvd>angularity of the coarse-grained portion of soil unit</edomvd>
+<edomvds>ASTM 2488-84</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4ClLi</attrlabl>
+<attrdef>general rock classification of rock fragments in soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Description - Rock type</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4ClWx</attrlabl>
+<attrdef>general degree of weathering of rock fragments in soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>Williamson (1984)</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>Unified Rock Classification System</codesetn>
+<codesets>Williamson (1984)</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4Thick</attrlabl>
+<attrdef>approximate thickness of the soil unit 4/secondary deposit soil in feet; value may be a single number or an estimated range of soil thickness</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>General thickness of soil</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Sl4RelDen</attrlabl>
+<attrdef>relative consistency or compactness of soil unit 4/secondary deposit soil</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Compact</edomv>
+<edomvd>Soil is difficult to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Dense</edomv>
+<edomvd>Soil must be loosened with pick to excavate with a hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Hard</edomv>
+<edomvd>Soil can be indented with thumbnail with difficulty</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Loose</edomv>
+<edomvd>Soil is easily excavated with hand shovel</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soft</edomv>
+<edomvd>Soil is indented with fist and/or penetrated easily with thumb</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Stiff</edomv>
+<edomvd>Soil is penetrated with thumb but with great effort</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Soft</edomv>
+<edomvd>Soil is readily penetrated several inches with fist</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Very Stiff</edomv>
+<edomvd>Soil is readily indented with thumbnail</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Dep_Veg</attrlabl>
+<attrdef>General type of vegetation on the deposit based on visual observation or aerial photograph</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Conifer Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Deciduous Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>grass-shrub</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Grass-shrub-tree</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Mixed Forest</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>none</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Pavement-hard surface</edomv>
+<edomvd>General type of vegetation in the initiation zone based either on visual observation or from aerial photograph.</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>GndWatr</attrlabl>
+<attrdef>description of the groundwater conditions at the initiation zone of a slope movement or the apex of a slope movement deposit if known</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Bedrock Seep/Spring</edomv>
+<edomvd>groundwater is discharging in the bedrock along one or more discontinuities</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>None Observed</edomv>
+<edomvd>no evidence of groundwater was observed at the site</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other</edomv>
+<edomvd>groundwater conditions differ from the options listed in the pull down menu</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soil-Sediment &amp; Bedrock Seep/Spring</edomv>
+<edomvd>groundwater is discharging along the contact between the bedrock and the overlying soil</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soil-Sediment Seep/Spring</edomv>
+<edomvd>Groundwater is discharging within the soil/sediment</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SurfWatr</attrlabl>
+<attrdef>Description of the surface water conditions at the initiation zone of a slope movement or the apex of a slope movement deposit if known</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Modified slope drainage into SM</edomv>
+<edomvd>the natural ground conditions have been modified so that surface water is directed onto the slope movement</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Natural drainage into SM</edomv>
+<edomvd>the natural ground conditions direct surface water onto the slope movement</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>None Observed</edomv>
+<edomvd>no surface water was observed at the site</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other</edomv>
+<edomvd>surface water conditions differ from the other options listed in the pull down menu</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Road drainage into SM</edomv>
+<edomvd>drainage from a road flows onto the slope movement</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Water ponded in SM</edomv>
+<edomvd>water is ponded on the slope movement</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Geo_X_Sect</attrlabl>
+<attrdef>indication of whether or not a geologic cross-section has been constructed for that location</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>yes</edomv>
+<edomvd>yes - geologic cross section has been constructed</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>no</edomv>
+<edomvd>no - geologic cross section has not been constructed</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>other</edomv>
+<edomvd>other then yes or no</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Plan_Map</attrlabl>
+<attrdef>Indication of whether or not a plan map has been constructed for that location;</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Yes</edomv>
+<edomvd>Yes - plan map constructed</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>No</edomv>
+<edomvd>No - no plan map constructed</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other</edomv>
+<edomvd>Something other then a plan map</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Photos</attrlabl>
+<attrdef>Indication of whether or not photos have been taken of that location</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Yes</edomv>
+<edomvd>Photos have been taken</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>No</edomv>
+<edomvd>Photos have not been taken</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other</edomv>
+<edomvd>Some other definition</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PrecData</attrlabl>
+<attrdef>Indication of whether or not precipitation data is available for that location at the time of the slope failure</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Yes</edomv>
+<edomvd>Precipitation data is available</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>No</edomv>
+<edomvd>No precipitation data available</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Other</edomv>
+<edomvd>other information regarding precipitation data</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Polygon</attrlabl>
+<attrdef>Indication of whether or not a polygon has been drawn in a shape file representing the extent of the slope movement or slope movement deposit.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>Yes, No, Blank</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LabTest</attrlabl>
+<attrdef>indication of type of testing performed on material in a slope movement or slope movement deposit.  If field is left blank, no testing was performed at that location.</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Rock Test</edomv>
+<edomvd>Rock tests were performed on samples from this location</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Soil Test</edomv>
+<edomvd>Soil tests were performed on samples from this location</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+<edom>
+<edomv>Rock and Soil Test</edomv>
+<edomvd>Both rock and soil tests were performed on samples from this location</edomvd>
+<edomvds>NCGS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Remarks1</attrlabl>
+<attrdef>text narrative of any additional information pertinent to entry including but not limited to detailed rock descriptions, location descriptions, velocity and discharge estimates, etc</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>text narrative</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Remarks2</attrlabl>
+<attrdef>text narrative of any additional information pertinent to entry including but not limited to detailed rock descriptions, location descriptions, velocity and discharge estimates, etc</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>text narrative</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Source1</attrlabl>
+<attrdef>Full citation of the primary literature source used to obtain information about the slope movement or slope movement deposit</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>text narrative</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Source2</attrlabl>
+<attrdef>Full citation of the secondary literature source used to obtain information about the slope movement or slope movement deposit</attrdef>
+<attrdefs>NCGS</attrdefs>
+<attrdomv>
+<udom>text narrative</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>North Carolina Geologic Survey</cntorg>
+<cntper>Richard M. Wooten</cntper>
+</cntorgp>
+<cntpos>Senior Geologist for Geohazards and Engineering Geology</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>2090 U.S. 70 Highway</address>
+<city>Swannanoa</city>
+<state>North Carolina</state>
+<postal>28778</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-296-4500 ext.4632</cntvoice>
+<hours>8:00am - 5:30pm</hours>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>The North Carolina Department of Environment and Natural Resources (NCDENR), North Carolina Geological Survey (NCGS) is charged by the State of North Carolina to develop landslide hazard assessment maps for the Blue Ridge region of western North Carolina.  NCGS is committed to offering its users accurate, useful, and current information.  All electronic and/or hardcopy products (maps, data, and text, etc.) produced by this landslide hazard assessment program are considered public information (unless otherwise noted) and may be distributed or copied.  These products, however, are intended to serve for general planning purposes only, and are provided on an "as is" basis. USE OF THESE MATERIALS CONSTITUTES ACCEPTANCE OF THIS DISCLAIMER OF LIABILITY.  Therefore, the client must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. The user must be cautious when using these data, as none of the data represented here are perfect.  Also, as in many complex scientific endeavors, error can be expected.  In no event shall NCDENR, NCGS, or its employees be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement or substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of these data, even if advised of the possibility of such damage.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI shapefile</formname>
+<transize>0.022</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>www.nconemap.com</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None</fees>
+</stdorder>
+<availabl>
+<timeinfo>
+<sngdate>
+<caldate>2006</caldate>
+<time>unknown</time>
+</sngdate>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20100909</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>North Carolina Dept. of Environment and Natural Resources</cntorg>
+<cntper>Richard M. Wooten</cntper>
+</cntorgp>
+<cntpos>Senior Geologist for Geohazards and Engineering Geology</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>2090 U.S. 70 Highway</address>
+<city>Swannanoa</city>
+<state>North Carolina</state>
+<postal>28778.</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-296-4500 ext. 4632</cntvoice>
+<cntemail>Rick.Wooten@ncmail.net</cntemail>
+<hours>8:00am - 5:00pm</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

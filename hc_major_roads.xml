@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Henderson County IT/GIS</origin>
+<pubdate>20030106</pubdate>
+<pubtime>Unknown</pubtime>
+<title>wnc.WNC.Henderson_Major_Roads</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Hendersonville, NC</pubplace>
+<publish>Henderson County Emergency Management</publish>
+</pubinfo>
+<onlink>Server=coa_gis; Service=5151; Database=wnc; User=wnc; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>*** This data is acquired from Henderson County approx. every 6 months. Last updated 2/4/2007 ***
+Henderson County, NC Street Centerline Data</abstract>
+<purpose>Delineation of Major Roads in Henderson County.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20030106</caldate>
+</sngdate>
+</timeinfo>
+<current>Good as of 1-6-03</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.653936</westbc>
+<eastbc>
+-82.266047</eastbc>
+<northbc>
+35.491358</northbc>
+<southbc>
+35.168164</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Major Roads</themekt>
+<themekey>Major Roads</themekey>
+<themekey>Centerline</themekey>
+<themekey>Geofile</themekey>
+</theme>
+<place>
+<placekt>Western North Carolina</placekt>
+<placekey>Henderson County, NC</placekey>
+</place>
+</keywords>
+<accconst>May be redistributed but NOTresold without the permision of Henderson County</accconst>
+<useconst>Anyone may use this dataset.  Use is not resricted.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Henderson County IT/GIS</cntorg>
+<cntper>Katie Brewer</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>200 N Grove St  -  Suite 86B</address>
+<city>Henersonville</city>
+<state>NC</state>
+<postal>28792</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-698-4425</cntvoice>
+<cntfax>828-698-5122</cntfax>
+<cntemail>kbrewer@hendersoncountync.org</cntemail>
+<cntemail>gis@hendersoncountync.org</cntemail>
+<hours>8:30 - 5:00 EST</hours>
+<cntinst>Please e-mail first.</cntinst>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.1.0.780</native>
+<crossref>
+<citeinfo>
+<origin>Henderson County Emergency Management</origin>
+<pubdate>20030106</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Streets</title>
+<edition>Version 3</edition>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Hendersonville, NC</pubplace>
+<publish>Henderson County Emergency Management</publish>
+</pubinfo>
+<othercit>This data was converted from USI string format to ESRI shape format in 2001.
+
+Ranges for addresses were converted from distance based to real world during a 2001-2003 project.</othercit>
+<onlink>http://www.hendersoncountync.org/gis/GISdownload.htm</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Ranges are not always 100%  Some error does exist.</attraccr>
+</attracc>
+<logic>The attribute data in this coverage was converted from distance based addresses to real world addresses.  It is known to contain some level of error especially as related to intersections.</logic>
+<complete>There are known data omissions by the vendor.  Where they have been located, they have been corrected by Henderson County staff.  New streets are added based on subdivision maps and discoveries by other methods of the existence of streets that were not mapped.</complete>
+<posacc>
+<horizpa>
+<horizpar>Within +- 20 feet.  Based of Aerial Photography control.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>GPS inputs were used.</procdesc>
+<procdate>Unknown</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Curtis Griffin</cntper>
+<cntorg>Henderson County Emergency Management</cntorg>
+</cntperp>
+<cntpos>Property Addressing Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>101 E Allen St</address>
+<city>Hendersonville</city>
+<state>NC</state>
+<postal>28792</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-697-4916</cntvoice>
+<cntemail>cgriffin@hendersoncountync.org</cntemail>
+<hours>8:00 - 4:30pm  EST</hours>
+<cntinst>Please email first.</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Dataset moved.</procdesc>
+<srcused>E:\ArcData\Centerlines\Metadata\streets_metadata</srcused>
+<procdate>Unknown</procdate>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\JASONM~1\LOCALS~1\Temp\xmlC5F.tmp</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>839</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000256</absres>
+<ordres>0.000256</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+wnc.WNC.Henderson_Major_Roads</enttypl>
+<enttypd>Vector Street Centerline Data</enttypd>
+<enttypds>Henderson County IT/GIS</enttypds>
+</enttyp>
+<attr>
+<attrlabl>HWY_NAME</attrlabl>
+<attrdef>Official Numeric Road Name - Ex.  US 176 instead of Spartanburg Hwy.</attrdef>
+<attrdefs>Henderson County IT/GIS</attrdefs>
+<attrdomv>
+<udom>Each numeric road name is uniquely different.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Unique ID.</attrdef>
+<attrdefs>Henderson County IT/GIS</attrdefs>
+<attrdomv>
+<udom>Each unique ID is different.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LENGTH</attrlabl>
+<attrdef>Length of vector segment.</attrdef>
+<attrdefs>Henderson County IT/GIS</attrdefs>
+<attrdomv>
+<udom>The length of each vector segment is different.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STREETNAME</attrlabl>
+<attrdef>Full street name - Ex.  Old US 25 Hwy.</attrdef>
+<attrdefs>Henderson County IT/GIS</attrdefs>
+<attrdomv>
+<udom>Each street name is uniquely different.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID_1</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASS</attrlabl>
+<attrdef>Classification of Highways.</attrdef>
+<attrdefs>Henderson County IT/GIS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>' '</edomv>
+<edomvd>Blank or Null</edomvd>
+<edomvds>Henderson County IT/GIS</edomvds>
+</edom>
+<edom>
+<edomv>Interstate</edomv>
+<edomvd>Interstate</edomvd>
+<edomvds>Henderson County IT/GIS</edomvds>
+</edom>
+<edom>
+<edomv>State Highway</edomv>
+<edomvd>State Highway</edomvd>
+<edomvds>Henderson County IT/GIS</edomvds>
+</edom>
+<edom>
+<edomv>US Highway</edomv>
+<edomvd>US Highway</edomvd>
+<edomvds>Henderson County IT/GIS</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Henderson County IT/GIS</cntorg>
+<cntper>Katie Brewer</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>200 N Grove St  -  Suite 86B</address>
+<city>Hendersonville</city>
+<state>NC</state>
+<postal>28792</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-698-4425</cntvoice>
+<cntfax>828-698-5122</cntfax>
+<cntemail>kbrewer@hendersoncountync.org</cntemail>
+<hours>8:30 - 5:00pm  EST</hours>
+<cntinst>Please email first.</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data at:
+http://www.hendersoncountync.org/gis/GISdownload.htm
+Stream in data from ESRI ArcView 8.x
+http://www.hendersoncountync.org/gis/GISdownload.htm</resdesc>
+<distliab>See disclaimer at:
+http://www.hendersoncountync.org/gis/
+See statement of understanding at:
+http://www.hendersoncountync.org/gis/</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ArcGIS shapefile</formname>
+<transize>5.156</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.hendersoncountync.org/gis/GISdownload.htm</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>Contact GIS department for details.</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20070205</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Henderson County IT/GIS</cntorg>
+<cntper>Katie Brewer</cntper>
+</cntorgp>
+<cntpos>GIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>200 N Grove St - Suite 86B</address>
+<city>Hendersonville</city>
+<state>NC</state>
+<postal>28792</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-698-4425</cntvoice>
+<cntfax>828-698-5122</cntfax>
+<cntemail>kbrewer@hendersoncountync.org</cntemail>
+<hours>8:30 - 5:00  EST</hours>
+<cntinst>Please email first.</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

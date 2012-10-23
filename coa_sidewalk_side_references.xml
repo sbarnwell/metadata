@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Asheville Engineering Department</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>PCS 2004 Sidewalk Side Reference Points</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=eng; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Pavement Condition Survey 2004 Sidewalk Side Reference Points.
+
+This feature class contains points whose "Link_ID" value refer to the values in two fields within the eng.eng.segments featureclass.   The points themselves refer to which side of the street the PCS 2004 sidewalk data is refering to.   In order to expedite the pavement condition survey on time, this was found to be the most efficient means for georeferencing the sidewallk data contained within each segment record of "eng.eng.segments".  Our intention is to later georeference this data via the Buncombe County street centerlines using linear referencing.  The two fields that correspond with values in the "Link_ID" field are "Sidewalk_1st_Side_Ref_PointID" and "Sidewalk_2nd_Side_Ref_PointID".  By examining the points' location and "Link_ID" values relative to the matching side reference values in the segment records, you can determine which side of the street the sidewalk condition data is referring to.  For further information on City of Asheville sidewalk data in GIS format please contact the metadata author.   Also, you may want to refer to the City of Asheville Pedestrian &amp; Bicycle Plan located at the following URL.
+
+
+http://www.ashevillenc.gov/engineer/PedPlan/2005PedPlan.htm</abstract>
+<purpose>This feature class contains points whose "Link_ID" value refer to the values in two fields within the eng.eng.segments featureclass.   The points themselves refer to which side of the street the PCS 2004 sidewalk data is refering to.   In order to expedite the pavement condition survey on time, this was found to be the most efficient means for georeferencing the sidewallk data contained within each segment record of "eng.eng.segments".  Our intention is to later georeference this data via the Buncombe County street centerlines using linear referencing.  The two fields that correspond with values in the "Link_ID" field are "Sidewalk_1st_Side_Ref_PointID" and "Sidewalk_2nd_Side_Ref_PointID".  By examining the points' location and "Link_ID" values relative to the matching side reference values in the segment records, you can determine which side of the street the condition data is referring to.  For further information on City of Asheville sidewalk data in GIS format please contact the metadata author.   Also, you may want to refer to the City of Asheville Pedestrian &amp; Bicycle Plan located at the following URL.
+
+http://www.ashevillenc.gov/engineer/PedPlan/2005PedPlan.htm</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2004</caldate>
+</sngdate>
+</timeinfo>
+<current>ground condition - per Orthophotography</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.673153</westbc>
+<eastbc>
+-82.481935</eastbc>
+<northbc>
+35.641498</northbc>
+<southbc>
+35.458829</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>UNESCO - Online Thesaurus</themekt>
+<themekey>Pavement</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>COA Engineering Dept.</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Rita Stanton c/o Nick Harvey</datacred>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<lineage>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=coa_gis; Service=esri_sde; Database=eng; User=eng; Version=sde.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>\\ENGGIS\C$\Eng_Transportation.mdb</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>882</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000032</absres>
+<ordres>0.000032</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+eng.ENG.sidewalk_side_references</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LINK_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EDIT_DATE</attrlabl>
+</attr>
+<attr>
+<attrlabl>EDIT_BY</attrlabl>
+</attr>
+</detailed>
+<overview>
+<eaover>Initially developed by ITRE in 1999, this dataset has traditionally housed most information related to pavement and street maintenance for the City of Asheville.   Several historical versions have been merged, resulting in this feature class in its present form.   Please consult the metadata author for further details.  A stand alone documents exists that documents all referenced domains and attribute values for this feature class.</eaover>
+</overview>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+</distinfo>
+<metainfo>
+<metd>20100903</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>City of Asheville Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

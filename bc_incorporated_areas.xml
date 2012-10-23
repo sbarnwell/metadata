@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Land Records</origin>
+<pubdate>2001/10/26</pubdate>
+<title>gis.GIS.BC_INCORPORATED_AREAS</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=GIS; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>*** This data is acquired from Buncombe County approx. every 6 months. Last updated 2/4/2007 ***
+This dataset represents the city and township limits of all the incorporated areas in Buncombe County for tax year 2002.</abstract>
+<purpose>This dataset can be used for analysis purposes</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2001/10/26</caldate>
+</sngdate>
+</timeinfo>
+<current>2001/10/26</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.626376</westbc>
+<eastbc>
+-82.267031</eastbc>
+<northbc>
+35.721096</northbc>
+<southbc>
+35.426649</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>City</themekt>
+<themekey>Incorp</themekey>
+</theme>
+</keywords>
+<accconst>Users within Buncombe County must be given access to BC_GISLIB</accconst>
+<useconst>Individuals obtaining the Incorp coverage from Buncombe County is acquiring it for their use. It is not to be redistributed
+for profit.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Marie Monteith</cntper>
+<cntorg>Buncombe County Land Records</cntorg>
+</cntperp>
+<cntpos>Land Records Supervisor</cntpos>
+<cntvoice>828-250-4977</cntvoice>
+<cntfax>828-250-4400</cntfax>
+<cntemail>monteim@co.buncombe.nc.us</cntemail>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<complete>The Incorp coverage is complete, but it does undergo ongoing maintenance. The cities and towns annex areas 
+which change the limits.</complete>
+<lineage>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\JASONM~1\LOCALS~1\Temp\xmlC66.tmp</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>7</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>24</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>20</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Node, planar graph</sdtstype>
+<ptvctcnt>3622</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>8829</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>138</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000103</absres>
+<ordres>0.000103</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+gis.GIS.BC_INCORPORATED_AREAS</enttypl>
+</enttyp>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA_</attrlabl>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+</attr>
+<attr>
+<attrlabl>INCORP_</attrlabl>
+</attr>
+<attr>
+<attrlabl>INCORP_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>DISTCODE</attrlabl>
+</attr>
+<attr>
+<attrlabl>DESCRIPTION</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.area</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+incorp.pat</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INCORP#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INCORP-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+</attr>
+<attr>
+<attrlabl>DISTCODE</attrlabl>
+</attr>
+<attr>
+<attrlabl>DESCRIPTION</attrlabl>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+incorp.nat</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ARC#</attrlabl>
+</attr>
+<attr>
+<attrlabl>INCORP#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INCORP-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+incorp.tatincp</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INCP#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INCP-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+<stdorder>
+<digform>
+<digtinfo>
+<transize>0.966</transize>
+</digtinfo>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20100817</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Betty Hall</cntper>
+<cntorg>Buncombe County</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>20 South Spruce Street</address>
+<city>Asheville</city>
+<state>North Carolina</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-250-4368</cntvoice>
+<cntfax>828-232-4114</cntfax>
+<cntemail>hallb@co.buncombe.nc.us</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

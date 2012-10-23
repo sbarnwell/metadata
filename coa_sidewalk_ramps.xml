@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Asheville Engineering Department</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>Sidewalk Ramps (PCS 2004)</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=eng; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Points within this feature class represent the location of sidewalk ramps collected during the pavement condition survey of spring / summer 2004.  Values in the field "Comp_" indicate whether or not the ramp is in within compliance per ADA specifications for pedestrian sidewalk ramp design.  An ADA compliant ramp must be 48" wide or greater and meet smoothly with the street surface and have a slope of less than 8%.  Factors that will cause a ramp to be rated non-compliant are large cracks, obstacles in the ramp, a slope greater than 8% and unmanageable differences in street and sidewalk height for a handicapped person.  Ramp locations were digitized in ArcGIS 8.3 using the 1998/1999 Buncombe County Orthophotography produced at 1:200' scale.</abstract>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>1998</begdate>
+<enddate>2004</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition - per Orthophotography</current>
+</timeperd>
+<status>
+<progress>Planned</progress>
+<update>Continually</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.649637</westbc>
+<eastbc>
+-82.482603</eastbc>
+<northbc>
+35.632297</northbc>
+<southbc>
+35.459925</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>UNESCO - Online Thesaurus</themekt>
+<themekey>Pavement</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>None</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>COA Engineering Dept.</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<lineage>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>M:\Engineering\GISGeneral\DataDevelopment\Metadata\SDE_pavementsegments.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=coa_gis; Service=esri_sde; Database=eng; User=eng; Version=sde.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>\\ENGGIS\C$\Eng_Transportation.mdb</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>1603</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000030</absres>
+<ordres>0.000030</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+eng.ENG.sidewalk_ramps</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COMP_</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EDIT_DATE</attrlabl>
+</attr>
+<attr>
+<attrlabl>EDIT_BY</attrlabl>
+</attr>
+</detailed>
+<overview>
+</overview>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+</distinfo>
+<metainfo>
+<metd>20100903</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>City of Asheville Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

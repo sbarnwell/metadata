@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>North Carolina Floodplain Mapping Program, North Carolina Division of Emergency Management</origin>
+<pubdate>200706</pubdate>
+<title>2007 Preliminary FEMA Special Flood Hazard Areas</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Raleigh, NC</pubplace>
+<publish>North Carolina Floodplain Mapping Program, North Carolina Division of Emergency Management</publish>
+</pubinfo>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=gis; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>MapFldHazAr is a GIS shapefile representing the area within the flood mapping boundaries defined by the engineering models for the 100 year, 500 year and floodway. The MapFldHazAr spatial table contains information about the flood hazard within the study area. These zones are used by FEMA to designate the Special Flood Hazard Area (SFHA), identify areas of coastal high hazard flooding, and for insurance rating purposes. These data are the flood hazard areas that are or will be depicted on the FIRM.</abstract>
+<purpose>These data were collected and derived by the North Carolina Floodplain Mapping Program (www.ncfloodmaps.com) as part of its effort to modernize FEMA Flood Insurance Rate Maps (FIRM) statewide. The North Carolina Floodplain Mapping Program was established through a Cooperating Technical State (CTS) agreement with FEMA in response to the extensive damage caused by Hurricane Floyd in 1999.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>200706</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.894640</westbc>
+<eastbc>
+-82.165103</eastbc>
+<northbc>
+35.829521</northbc>
+<southbc>
+35.406055</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Map Flood Hazard Area</themekey>
+<themekey>Floodplain Boundaries</themekey>
+<themekey>100 Year Flood</themekey>
+<themekey>500 Year Flood</themekey>
+<themekey>1% annual chance flood hazard</themekey>
+<themekey>0.2% annual chance flood hazard</themekey>
+<themekey>DFIRM</themekey>
+<themekey>Digital Flood Insurance Rate Map</themekey>
+<themekey>FIRM</themekey>
+<themekey>Flood Insurance Rate Map</themekey>
+<themekey>Floodway</themekey>
+<themekey>Riverine flooding</themekey>
+<themekey>Special Flood Hazard Area</themekey>
+<themekey>Coastal flooding</themekey>
+</theme>
+<place>
+<placekt>North Carolina Atlas &amp; Gazetteer (Yarmouth, Maine: DeLorme, 2001).</placekt>
+<placekey>Buncombe County, Alexander, Arden, Asheville, Barnardsville, Biltmore Forest, Black Mountain, Candler, Enka, Fairview, Leicester, Montreat, Ridgecrest, Skyland, Swannanoa, Weaverville, North Carolina</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>These data were created with the highest consideration of accuracy and data integrity.  However, as with all other geospatial datasets, users must take into consideration the consequences of using the data for specific applications, business processes, decisions, and map display. For example, surface conditions may have changed in some areas since the initial data was captured. A full metadata record is provided to help the user understand the date, map scale and accuracy standard applied in the collection and data development process. The data should not be used without full review and comprehension of the metadata. Acknowledgement of the North Carolina Floodplain Mapping Program is appreciated when using the data set. Data further derived from this data set should be fully documented using the federal metadata standard and listed via the NC Geospatial Data Clearinghouse.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Greenhorne &amp; O'Mara, Inc.</cntorg>
+<cntper>James Huffines</cntper>
+</cntorgp>
+<cntpos>Technical Director</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>5565 Centerview Dr.  Suite 107</address>
+<city>Raleigh</city>
+<state>NC</state>
+<postal>27606</postal>
+</cntaddr>
+<cntvoice>919-532-2332</cntvoice>
+<cntfax>919-851-8393</cntfax>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+<crossref>
+<citeinfo>
+<origin>Federal Emergency Management Agency</origin>
+<pubdate>Unknown</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Flood Insurance Study, BUNCOMBE COUNTY, NC</title>
+<geoform>document</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>FEMA</publish>
+</pubinfo>
+<onlink>www.fema.gov</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Federal Emergency Management Agency</origin>
+<pubdate>Unknown</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Flood Insurance Study, BUNCOMBE COUNTY, NC</title>
+<geoform>raster digital data</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>FEMA</publish>
+</pubinfo>
+<onlink>www.fema.gov</onlink>
+</citeinfo>
+</crossref>
+<crossref>
+<citeinfo>
+<origin>Federal Emergency Management Agency</origin>
+<pubdate>Unknown</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Flood Insurance Study, BUNCOMBE COUNTY, NC</title>
+<geoform>map</geoform>
+<pubinfo>
+<pubplace>Washington, DC</pubplace>
+<publish>FEMA</publish>
+</pubinfo>
+<onlink>www.fema.gov</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<logic>None</logic>
+<complete>None</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Watershed Concepts</origin>
+<pubdate>200704</pubdate>
+<title>MapFldHazAr</title>
+</citeinfo>
+</srccite>
+<typesrc>Shapefile</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>2000704</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea>MapFldHazAr</srccitea>
+<srccontr>For streams restudied by detailed and limited detail methods, the 1% and 0.2% annual chance floodplains were delineated using flood elevations determined at each cross section. Between cross sections, the boundaries were interpolated using topographic data acquired using airborne LIDAR. This LIDAR data was acquired during the winter 2000-2001 flying season.
+
+The topographic data satisfies a vertical root-mean-square error (RMSE) accuracy standard of 20cm (1.3 feet accuracy at the 95% confidence limit) for the Outer Banks and 25 cm (1.6 feet accuracy at the 95% confidence limit) for those portions of the basin lying west of the Outer Banks. These data could be contoured at roughly a 2-foot vertical contour interval. All elevations were referenced to the NAVD 88 and reflect orthometric heights. Variably spaced, bare-earth digital topographic data in ASCII point file format were combined with imagery (either flown concurrently with the LIDAR data or using existing digital orthophotos) to establish a Triangulated Irregular Network (TIN) of digital elevation points, which include selected breaklines to be used for hydraulic modeling.
+
+The 1% annual chance floodplain boundary corresponds to the boundary of the areas of special flood hazards (Zones VE, AO, AH, A99, AR, A, and AE), and the 0.2% annual chance floodplain boundary corresponds to the boundary of areas of moderate flood hazards. In cases where the 1% and 0.2% annual chance floodplain boundaries are close together, only the 1% annual chance floodplain boundaries have been shown.
+
+The floodways were computed for certain stream segments on the basis of equal conveyance reduction from each side of the floodplain. Floodway widths were
+computed at cross sections. Between cross sections, the floodway boundaries were interpolated.  The computed floodway is shown on the FIRM. In cases where the floodway and 1% annual chance floodplain boundaries are either close together or collinear, only the floodway boundary is shown.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>For streams restudied by detailed and limited detail methods, the 1% and 0.2% annual chance floodplains were delineated using flood elevations determined at each cross section. Between cross sections, the boundaries were interpolated using topographic data acquired using airborne LIDAR. This LIDAR data was acquired during the winter 2000-2001 flying season.
+
+The topographic data satisfies a vertical root-mean-square error (RMSE) accuracy standard of 20cm (1.3 feet accuracy at the 95% confidence limit) for the Outer Banks and 25 cm (1.6 feet accuracy at the 95% confidence limit) for those portions of the basin lying west of the Outer Banks. These data could be contoured at roughly a 2-foot vertical contour interval. All elevations were referenced to the NAVD 88 and reflect orthometric heights. Variably spaced, bare-earth digital topographic data in ASCII point file format were combined with imagery (either flown concurrently with the LIDAR data or using existing digital orthophotos) to establish a Triangulated Irregular Network (TIN) of digital elevation points, which include selected breaklines to be used for hydraulic modeling. Furthermore, a uniformly spaced sampling of the TIN resulted in uniformly spaced Digital Elevation Models (DEMs), with 20 ft x 20 ft post spacing, which was generated in multiple file formats.
+
+The 1% annual chance floodplain boundary corresponds to the boundary of the areas of special flood hazards (Zones VE, AO, AH, A99, AR, A, and AE), and the 0.2% annual chance floodplain boundary corresponds to the boundary of areas of moderate flood hazards. In cases where the 1% and 0.2% annual chance floodplain boundaries are close together, only the 1% annual chance floodplain boundaries have been shown.
+
+The floodways were computed for certain stream segments on the basis of equal conveyance reduction from each side of the floodplain. Floodway widths were
+computed at cross sections. Between cross sections, the floodway boundaries were interpolated.  The computed floodway is shown on the FIRM. In cases where the floodway and 1% annual chance floodplain boundaries are either close together or collinear, only the floodway boundary is shown.</procdesc>
+<procdate>200706</procdate>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\kwhitson\LOCALS~1\Temp\xml805.tmp</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\Documents and Settings\dhettinger\My Documents\mapfldhazar.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\JHUFFI~1\LOCALS~1\Temp\xml18B.tmp</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\2007SFHAmetadata.xml</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>657</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.005208</absres>
+<ordres>0.005208</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+eng.ENG.SFHA_2007</enttypl>
+<enttypd>Polygon Geometry file that is the physical representation of the Flood Mapping Boundaries that are calculated from the Engineering Models</enttypd>
+<enttypds>NC-FMIS Database Design Review and Physical Model (State of North Carolina, North Carolina Floodplain Mapping Program, September 2002)</enttypds>
+</enttyp>
+<attr>
+<attrlabl>HYDROID</attrlabl>
+</attr>
+<attr>
+<attrlabl>ZONE_LID</attrlabl>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Polygon</edomv>
+<edomvd>Polygons represent area features and are made up of arcs which define the boundary.</edomvd>
+<edomvds>ESRI</edomvds>
+</edom>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FLDWAY_LID</attrlabl>
+</attr>
+<attr>
+<attrlabl>SFHA_TF</attrlabl>
+</attr>
+<attr>
+<attrlabl>V_DATM_LID</attrlabl>
+</attr>
+<attr>
+<attrlabl>DEPTH</attrlabl>
+<attrdef>Depth value. For AO zones, shown beneath the zone label on the FIRM. Usually a whole number between 1 - 3 feet.</attrdef>
+<attrdefs>NC-FMIS Database Design Review and Physical Model (State of North Carolina, North Carolina Floodplain Mapping Program, September 2002)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>9999</edomv>
+<edomvd>No depth</edomvd>
+<edomvds>Watershed Concepts</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LEN_LID</attrlabl>
+</attr>
+<attr>
+<attrlabl>VEL_LID</attrlabl>
+</attr>
+<attr>
+<attrlabl>METAID</attrlabl>
+<attrdef>Foreign key, link to Metadata table should be the same as for the flood hazard lines</attrdef>
+<attrdefs>NC-FMIS Database Design Review and Physical Model (State of North Carolina, North Carolina Floodplain Mapping Program, September 2002)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>9999</edomv>
+<edomvd>Temporary value</edomvd>
+<edomvds>Watershed Concepts</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AR_REVERT</attrlabl>
+</attr>
+<attr>
+<attrlabl>CST_MDL_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>BFE_REVERT</attrlabl>
+</attr>
+<attr>
+<attrlabl>DEP_REVERT</attrlabl>
+</attr>
+<attr>
+<attrlabl>FLD_AR_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>STATIC_BFE</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>VELOCITY</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.area</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+</cntorgp>
+<cntpos>Production Services</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>301 N. Wilmington Street, Suite 700</address>
+<city>Raleigh</city>
+<state>NC</state>
+<postal>27601-2825</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>(919) 733-2090</cntvoice>
+<cntfax>(919) 715-0725</cntfax>
+<cntemail>dataq@ncmail.net</cntemail>
+<hours>8:30 AM to 5:30 PM EST</hours>
+<cntinst>Phone and email preferred. For current price information visit www.cgia.state.nc.us/cost.html</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>NCCGIA is charged with the development and maintenance of the State's corporate geographic database and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information about the state. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop the corporate database may be reflected in the data supplied. The client must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this data. The use of trade names or commercial products does not constitute their endorsement by the NCCGIA or North Carolina State Government.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ASCII</formname>
+<formcont>polygon dataset and metadata</formcont>
+<filedec>PC-based PKZip compatible products (WinZip, unzip) may be used to decompress the dataset.</filedec>
+<transize>2.0-4.0 MB</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>(To be determined)</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>For current price information visit www.cgia.state.nc.us/cost.html</fees>
+</stdorder>
+<custom>Custom data creation and analysis work is available by contract. Contact Production Services at (919) 733-2090.</custom>
+<techpreq>Data are supplied in ArcInfo and ASCII formats. Format compatibility is the user's responsibility. For more information visit www.cgia.state.nc.us/cost.html.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20100416</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Greenhorne &amp; O'Mara, Inc.</cntorg>
+<cntper>Kristel Whitson</cntper>
+</cntorgp>
+<cntpos>GIS Technician</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>5565 Centerview Dr.  Suite 107</address>
+<city>Raleigh</city>
+<state>NC</state>
+<postal>27606</postal>
+</cntaddr>
+<cntvoice>919-532-2331</cntvoice>
+<cntfax>919-851-8393</cntfax>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

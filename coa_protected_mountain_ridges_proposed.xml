@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Asheville</origin>
+<pubdate>July 1st 2007</pubdate>
+<title>Ridgelines Qualifying as City of Asheville Protected Mountain Ridges</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=gis; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This feature class contains vector polylines representing 'protected mountain ridges' as described in the City of Asheville UDO Chapter 7 Article XII (as amended in July 2007).  Each feature represents a ridgeline that qualifies according to the criteria established in the 2007 revision of the UDO and through technical qualification processes described within this documentation report.  Features within this feature class are not currently isolated to the Corporate Limits and extend outside City of Asheville's current jurisdictional boundaries.  Per the simplification of the related UDO 2007 revision language, this documentation report is provided as a technical supplement to the qualification language provided in the UDO.
+
+THIS DATASET DOES NOT REPRESENT A 100' VERTICAL PROTECTION ZONE ASSOCIATED WITH EACH PROTECTED RIDGE AS PRESCRIBED IN THE UDO CHAPTER 7 ARTICLE XII.</abstract>
+<purpose>This feature class contains vector polylines representing 'protected mountain ridges' as described in the City of Asheville UDO Chapter 7 Article XII (as amended in July 2007).  Each feature represents a ridgeline that qualifies according to the criteria established in the 2007 revision of the UDO and through technical qualification processes described within this documentation report.  Features within this feature class are not currently isolated to the Corporate Limits and extend outside City of Asheville's current jurisdictional boundaries.  Per the simplification of the related UDO 2007 revision language, this documentation report is provided as a technical supplement to the qualification language provided in the UDO.
+
+THIS DATASET DOES NOT REPRESENT A 100' VERTICAL PROTECTION ZONE ASSOCIATED WITH EACH PROTECTED RIDGE AS PRESCRIBED IN THE UDO CHAPTER 7 ARTICLE XII.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>07/02/2007</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.707677</westbc>
+<eastbc>
+-82.433301</eastbc>
+<northbc>
+35.678548</northbc>
+<southbc>
+35.465071</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>UNESCO Online Thesaurus http://databases.unesco.org/thesaurus/index.html</themekt>
+<themekey>Ridge</themekey>
+<themekey>Ridgeline</themekey>
+<themekey>Valley</themekey>
+<themekey>Aspect</themekey>
+<themekey>Watershed</themekey>
+</theme>
+<place>
+<placekt>UNESCO Online Thesaurus http://databases.unesco.org/thesaurus/index.html</placekt>
+<placekey>Asheville, North Carolina</placekey>
+</place>
+</keywords>
+<accconst>None.</accconst>
+<useconst>Not for redistribution.  Copies must be obtained from City of Asheville Departments directly.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntfax>828-232-4517</cntfax>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>City of Asheville Transportation &amp; Engineering Department GIS Staff</datacred>
+<secinfo>
+<secsys>None</secsys>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+<crossref>
+<citeinfo>
+<origin>North Carolina State Legislature</origin>
+<pubdate>1983</pubdate>
+<title>Mountain Ridge Protection Act of 1983. (1983, c. 676, s. 1.)</title>
+<edition>1</edition>
+<onlink>http://www.ncga.state.nc.us/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_113A/Article_14.html</onlink>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>N/A.  Attribution is limited at this time</attraccr>
+</attracc>
+<logic>The following topological tests were performed on the final linework represented within this feature class using a cluster tolerance of 0.0107 U.S. Survey Feet.
+
+Class1,Rule,Class2,Errors,Exceptions
+,Must Be Larger Than Cluster Tolerance,,0,0
+pmrtopology,Must Not Overlap,,0,0
+pmrtopology,Must Not Intersect,,0,0
+pmrtopology,Must Not Self-Intersect,,0,0
+pmrtopology,Must Be Single Part,,0,
+
+Ridgelines within this feature class should overlay consistently with 20' DEMs or TINs produced from 2005 NCFMP LiDAR data, being the source data from which the ridgelines are derivatives.</logic>
+<complete>Identified ridgelines are final at this time.  The extent of this study went beyond City of Asheville's 2007 jurisdiction to account for potential annexation and jurisdictional boundaries.  Ridgelines or segments of ridgelines that are not included within this feature class failed to meet the following specifications, further described in processing Steps 1-7.  
+
+1) Greater than or equal to 500' above the adjacent valley floor (see definitions in the Processing Steps Section)
+2) Are not coincident with a 100 acre watershed as identified during the study (see definitions in the Processing Steps Section)
+3) Yielded a low Aspect Standard Deviation (ASD) associated with low relief found within 100' (horizontal) on either side of the uppermost ridgeline of the landform. Within this study low was defined as &lt;= 33.75 degrees Std. Deviation.  
+4) Associated with a pair of bifurcated secondary finger ridges, where one of the pair yielded a low ASD (&lt;=33.75 Std. Deviation).</complete>
+<posacc>
+<horizpa>
+<horizpar>For the NCFMP LiDAR data (mass points), the state has specified a horizontal (radial) accuracy of 5.68 ft (1.73 m) at the 95% confidence level, which is equivalent to a horizontal (radial) RMSE (RMSEr) of 3.28 ft (1 meter). These same specifications pertain to Phase III counties per information available @ http://www.ncfloodmaps.com/pubdocs/lidar.htm in August 2007.  All TINs used in 'cut area' geoprocessing for this study were derived from the LiDAR bare earth mass points.  Generally, these were areas identified as being 500' above the adjacent valley floor.   The Ridgelines, 100 acre drainage boundaries, and Strahler 6-acre stream network were derived from an interpolated 20' DEM (Digital Elevation Model) provided by CGIA/NCFMP which will be less accurate due to the interpolation, however a specific metadata document for the 20' DEMs is unavailable at this time (August 1st, 2007).  A quality control report for Buncombe County 2005 LiDAR should be available in 2008 @ http://www.ncgs.state.nc.us/floodmap.html</horizpar>
+<qhorizpa>
+<horizpae>Per information available @ http://www.ncfloodmaps.com/pubdocs/lidar.htm</horizpae>
+</qhorizpa>
+</horizpa>
+<vertacc>
+<vertaccr>For Phase II of the NCFMP, the state has specified Fundamental Vertical Accuracy of 1.2 ft (36.3 cm) in open terrain, and Consolidated Vertical Accuracy of 1.6 ft (49.0 cm) in all land cover categories combined, including open terrain, weeds and crops, scrub, forests, and urban terrain (built-up areas). These same specifications pertain to Phase III.  A quality control report for Buncombe County should be available in 2008 @ http://www.ncgs.state.nc.us/floodmap.html</vertaccr>
+<qvertpa>
+<vertacce>Per information available @ http://www.ncfloodmaps.com/pubdocs/lidar.htm &amp; A quality control report for Buncombe County should be available in 2008 @ http://www.ncgs.state.nc.us/floodmap.html</vertacce>
+</qvertpa>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>North Carolina Floodplain Mapping Program</origin>
+<pubdate>Unknown</pubdate>
+<title>NCFMP LiDAR Bare Earth Mass Points</title>
+<geoform>document</geoform>
+<onlink>www.ncfloodmaps.com</onlink>
+</citeinfo>
+</srccite>
+<srcscale>Unknown</srcscale>
+<typesrc>CD-ROM</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Winter 2005</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>LiDAR Bare Earth Mass Points</srccitea>
+<srccontr>NCFMP Bare Earth mass points depicting spot elevations within Buncombe County circa Winter 2005.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>North Carolina Floodplain Mapping Program</origin>
+<title>NCFMP 20' Bare Earth DEMs</title>
+<geoform>raster digital data</geoform>
+<onlink>www.ncfloodmaps.com</onlink>
+</citeinfo>
+</srccite>
+<srcscale>Unknown</srcscale>
+<typesrc>disc</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate>Winter 2005</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>NCFMP 20' Bare Earth DEMs</srccitea>
+<srccontr>NCFMP 20' resolution bare earth Digital Elevation Models (DEMs) interpolated from bare earth mass point-based TINs.  Provided courtesy of Buncombe County GIS.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Project Scoping / Needs Assessment Summary (Step 1)
+
+To ensure similar protections and to remain within the technical intent and spirit of the North Carolina Mountain Ridge Protection Act (1983, c. 676, s. 1.). The City of Asheville has re-studied ridgelines within its jurisdiction due to several events and factors including but not limited to the following:
+
+1) In 2005, The City Attorney's Office had determined that it was within City of Asheville's jurisdiction to prescribe its own ridgeline protection through the UDO, not to supersede or replace protection provided by the N.C. Mountain Ridge Protection Act (MRP act).   Please see the City Attorney's memo located on the documentation disk. 
+
+2) The original MRP act excluded several geomorphological definitions which may have created inconsistency (or at the least) increased subjectivity in the identification of the original "protected mountain ridges".  
+
+3) The availability of improved GIS technology and data to support further variable definitions, process automation, and increased accuracy in the identification of qualifying ridgelines.  
+
+4)  Several ridgelines have been identified that are of concern to the community and City staff that were not previously identified on the 1983/1985 maps, nor were the 1985/1985 maps updated when City jurisdictions expanded.   
+
+Considering these factors, the City of Asheville Planning Dept. approached Transportation and Engineering GIS staff for assistance with a pilot study in Winter 2006, followed by a formal identification project in Winter 2007.</procdesc>
+<srcused>N/A</srcused>
+<procdate>Winter 2006 through Winter 2007</procdate>
+<srcprod>N/A</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville Planning &amp; Transportation &amp; Engineering Staff with Assistance from the City Attorney</cntorg>
+</cntorgp>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Identification of 'Adjacent Valley Floors' (Step 2)
+
+Considering item #2 listed in process step 1, the "adjacent valleys" in this study were defined in the following manner.   Summary:  A GIS-based stream network and elevation data were used to identify "valleys" and "valley floor gradients" using quantitative methods and thresholds.  Technical processes are listed below:
+
+A depressionless DEM was created from the original NCFMP 20' DEM. From the depressionless DEM a stream network was developed using the standard ESRI hydrologic modeling tools available in association with the Spatial Analyst extension.  A 6 acre drainage threshold was chosen for depicting stream/channel initiation in an attempt to approximate the characterization of streams by the N.C. Stream Mapping Program at the same 'scale', however at the time unavailable.  The Stream Mapping Program's initial product for Buncombe County is expected to be available in Late Summer/Fall 2007.  
+
+Using the raster-based 6-acre stream network derived from the depressionless DEM, the Strahler Stream Order was calculated using a hydrologic modeling tool provided in ArcGIS 9.1.  After jurisdiction-wide random inspection of stream order appearance in association with other geomorphic features, Transportation &amp; Engineering staff and Planning staff determined that the use of Strahler stream order and stream gradient were appropriate indicators for defining the point of beginning and continual gradient for a 'valley' in addition to being feasibly calculated through use of GIS software.  Upon visual inspection of the distribution of stream order it was noted that most 'model' valley landforms commonly known to citizens and City staff were found in association with Strahler 3rd Order streams or higher.  'Model' valleys within City of Asheville jurisdiction include Ross Creek, Sweeten Creek, Gashes Creek, Grassy Branch, Haw Creek, Canie Creek, Reed Creek, etc.  During the on-screens visual inspections, channel gradients and valley landforms associated with most 2nd Order streams and specific 3rd Order streams were observed to be uncharacteristic of 'model' valleys and might be better associated with 'hollows', 'coves', or other similar terms.  To define a threshold, all 3rd and 4th Order Strahler streams were studied for gradient with City of Asheville jurisdiction, with the combination of stream gradient and order expected to be surrogate indicators of 'model' valley characteristics.
+
+For the 6-acre Strahler 4th Order Streams identified within the 2007 Corporate Limits and ETJ, the average overall gradient was found to be approximately 110 feet per mile.  All sample records were then classified according to the Jenks Natural Breaks method (5 classes) to examine subclasses within the sample population. 90% of the records (58 out of 64) were found to have gradients &lt;= 155 feet per mile, corresponding with the first 4 classes.  Because the 5th class contained only 10% of the total records but were each twice the average gradient value (+/- 200 feet per mile), &lt;= 155 feet per mile was determined to be the cutoff point for the identification of 'model' valleys. Secondly, most 'model valleys' such as Ross Creek, Haw Creek, etc  showed overall average gradients of &lt;100 feet per mile, allowing for a (wide) +50% variation in gradient for a 4th Order stream to be included as a 'model valley'.  
+
+For the 6-acre Strahler 3rd Order streams:  70% of 3rd Order streams found within the Corporate Limits and ETJ showed a downward gradient of &gt;100 feet per mile, with an average gradient of approximately 177 feet per mile.  While most of these 3rd Order streams did not appear to be similar to our 'model' valley gradients (approximately 100 feet per mile) exceptions are clearly present, particularly where a 3rd Order stream is found to contribute directly to a 5th Order stream.  It was decided then to include 3rd Order streams where the 3rd Order stream contributes directly to a 5th Order stream (or higher) and whose gradient is &lt;= 155 feet per mile.  The 3rd Order stream must also be &gt;= 1 mile in total length (as the average 4th Order stream length was found to be approximately 1.2 miles).  In short, these exceptional 3rd Order streams must show similar characteristics as a 'model' 4th Order stream to be identified in the model as an "adjacent valley".  
+
+Streams identified using the criteria above (or of higher Order) were then identified for study as 'adjacent valley floors' from which the relative relief (&gt;= 500 above the 'adjacent valley floor) would be measured.  The adjacent valley floor elevations were then identified as the lowest elevation points available in the 2005 LiDAR bare earth mass points dataset associated with the continuous downward gradient of each stream centerline.  Within the 2005 LiDAR bare earth mass points dataset these continuous spot elevations were assumed to consist of undulating/alternating shoreline elevations and top-of-bank elevations as are commonly found along each opposing bank of a stream channel.</procdesc>
+<srcused>NCFMP 20' Bare Earth DEMs</srcused>
+<procdate>Winter 2007</procdate>
+<srcprod>6-acre Strahler Stream Order raster</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Identifying Areas &gt;= 500' above the Adjacent Valley Floor (Step 3)
+
+For approximating the 'adjacent valley floor' within the study area, 2005 LiDAR bare earth mass points were converted to TINs on a watershed basis, each watershed corresponding with a stream identified during Step 2 (generally 3rd-4th Order or higher streams at a 6-acre drainage network).  3D Polylines were created using the TINs (as an elevation data source) and the identified stream segments (as polyline geometry).  These segments were then converted to points spaced at intervals per the TIN intersection.  The z-value was then calculated for each point, with 500' added to the original z-value (each approximating an elevation 500 above the 'adjacent valley floor').   If significant meanders were visible (back-over folds) at roughly 1:12,000 scale, the stream was divided into segments for study.  Otherwise, the points containing the new z-values were offset 90 degrees (parallel to the stream) from the axis of orientation for the entire stream (consisting of a construction line running from the initiation point of the stream to the end point of confluence).   The offset points were copied into the original feature class on either side of the watershed boundary (usually into the next valley).  Secondly, the beginning z-value at the 'top' of the stream segment was applied to points constructed on the other side of the watershed boundary (into the next watershed area).  This ensures that when a TIN is created from the entire collection of points, the surface will 'slice' into the hillsides @ &gt;= 500' above the 'adjacent valley floor' in a continuous downhill gradient.  Please refer to slides in the NCGIS 2007 conference presentation stored within the documentation CD-ROM for visual explanation.  Once the 500' surface was created, it was used in a cut operation (using 3D Analyst) against the original watershed to reveal all land area within the watershed that is &gt;= 500' the 'adjacent valley floor".  These raster output files were created in 10'x10' resolution at minimum, which were then converted to vector polygons using generalized lines.  The areas became known as the 'qualifying areas' in the study and are represented on the documentation CD.</procdesc>
+<srcused>LiDAR Bare Earth Mass Points</srcused>
+<procdate>Winter 2007</procdate>
+<srcprod>Vector Qualifying Areas</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Identifying Potential 100-Acre Watershed Boundaries\Ridgelines (Step 4). 
+
+Using the county-wide depressionless DEM (also used in Step 2) and the standard ESRI Spatial Analyst hydrologic modeling tools, a watershed raster was created representing potential 100-acre watersheds within the study area.  The watershed tool effectively looks for any potential 100-acre watersheds within each drainage basin and identifies them using a unique raster value.  'Direct drainage' (where surface area drains directly to a larger stream on either bank-side) was accounted for by converting these raster values to vector polygons.  Where direct drainage watersheds were identified, the 6-acrea Strahler stream network (as in Step 2) was used to split these polygons.  The resulting watershed boundaries were selected for drainage area &gt;= 100 acres in size in order to represent 'all possible ridgelines' .  A 100-acre threshold was chosen after a test using the same method had determined that 99% of all protected ridges identified in the 1983 maps (vectorized for use in GIS by N.C. DCA) had been 'covered' by a 100-acre watershed boundary threshold.  Further, identifying a drainage threshold for ridges establishes a 'scale', where otherwise ridgelines may be defined until infinity provided that there is adequate data to support their delineation.
+   For quality assurance, the 100-Acre watershed boundaries were overlain with a hillshade and parent DEM (the 20' depressionless DEM used in Step 2) for visual inspection of consistency with the terrain model.  One watershed boundary was observed to be located on a face slope where the 'true' ridgeline was visually unclear.  This watershed boundary was marked and later trimmed to a point of departure on the finger ridge where the ridgeline delineation could be clearly interpreted.</procdesc>
+<srcused>NCFMP 20' Bare Earth DEMs</srcused>
+<procdate>Winter 2007</procdate>
+<srcprod>Approximate 100' Acre Watersheds</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Ridgeline Geoprocessing (Step 5):  
+
+The 100-acre watershed boundary data (all possible ridgelines) were clipped to the vectorized qualifying areas (land areas found &gt;= 500' above the adjacent valley floor).   The vector polylines were planarized to remove split polyline geometry between true intersections.  If a ridgeline fell below the lowest qualifying elevation corresponding with the qualifying areas polygon, but rose again on the other side (a saddle) at the same elevation or higher, it was included as a potential ridgeline segment if the saddle did not exceed 100 vertical feet.  Mechanical or man-made cuts are excluded from this model as they have artificially created or capitalized upon natural saddles.  One high-elevation ridgeline was trimmed due to the ridgelines' intersection with a stream network segment (where a high valley exists).  As applying a protection zone in this case would conflict with the spirit of "ridge protection" the ridgeline was trimmed to a point where the protection zone would terminate at the lowest elevation on the landform slope (prior to an intersection with the drainage area).</procdesc>
+<srcused>Qualifying Areas &amp; 100-Acre Watershed Boundaries</srcused>
+<srcprod>Pre-Aspect Test Ridgelines</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<city>70 Court Plaza</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Aspect Testing (Step 6):  
+
+   Following Step 5, all 'finger ridges' were evaluated using an Aspect Study.  This study has defined 'finger ridges' as any ridgelines which split and deviate at an angle from a higher or more extensive ridgeline.  Aspect studies were completed by buffering a finger ridge by 100' on either side, with all intersecting buffer areas removed.   Two separate aspect rasters calculations were employed for each buffer:  The first calculation utilized a typical 0 to 360 degree azimuth-aspect raster derived from the 20' NCFMP LiDAR DEM.  The second utilized a north-adjusted azimuth-aspect raster to account for false large differences (deviation) in aspect where finger ridges (or a large portion of finger ridges) were oriented due north.  
+   The aspect study evaluates the finger ridge for relative relief in relation to the aspect values of the ridgeline and associated slopes of the landform found within the buffer.  The aspect standard deviation was derived for each buffer using the zonal statistics tools found within the ESRI Spatial Analyst extension.  After staff consideration of the appropriate threshold, any finger ridges (buffers) showing &lt;= 33.75 degrees aspect standard deviation were discarded as these features appear to show low relative relief (on either side of the ridgeline) and may not be considered as 'model' ridges, but better described as 'face' ridges.  
+
+   'Face ridges' may be described as low-relief ridgelines where there is little difference (deviation) between the average aspect values of slopes on either side of the ridgeline, and little difference between the average slope aspect values and the average ridgeline aspect values.  In certain cases the aspect values of north-facing finger ridges would be divided between values of 292.5 to 359.99 degrees and 0 to 45 degrees, which would yield a falsely high standard deviation.  To adjust for this, the second north-adjusted raster was used where all northern and southern aspects were reassigned 0 to 360 degree azimuth values beginning at the 270 degrees azimuth found in the original aspect raster.  Values derived from the calculation using the 'north-adjusted' raster were stored in a separate field.  To avoid exclusion, a north-oriented finger ridge must meet the threshold (&gt;=33.75) in the second field, if it failed to meet the threshold in the first field.  
+
+   Regarding 'face ridges', the intent of this aspect study was to evaluate 'ridge shape' or 'form' rather than general slope characteristics on any one side of the landform.  It should be noted that there are several cases where portions of ridgelines were disqualified in the study due to association with a 'face slope'.  It was not the scope or intent of this dataset to provide protection for general 'slopes' as protective language is provided for steep slope development in the UDO.  The intent of this study was to identify landforms that would qualify for protection due to their 'ridgeline' characteristics exclusively.   
+
+   Through inspection in ArcScene (using 3D 'fly-through' and perspective inspections), the aspect study method was found to be highly effective (98%) in evaluating finger ridges for relative relief or shape.  However, several exceptions were identified and are noted in the project study feature class attribute table.  Exceptions exist where ridgelines show false high aspect standard deviations due to apparent terrain ruggedness, rather than general 'shape' or landform relative relief (even-sloping on either side of the ridgeline).  These exceptions were observed in a few cases in the Porters' Cove area and Beaverdam Valley area where 'microridges' appear to be associated with extremely steep slopes that are oriented parallel with the ridgeline that may be the result of differences in underlying geology (exposed rock faces or folds that are coincident with the ridgeline) .</procdesc>
+<srcused>Pre-Aspect Ridgelines &amp; Aspect Rasters</srcused>
+<procdate>Winter 2007</procdate>
+<srcprod>Aspect Test Samples Buffer Polygons</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Bifurcated Secondary Ridges (Step 7):
+
+Due to the use of a specific/discrete threshold in Aspect Testing (&gt;= 33.75), several exceptions were observed in the treatment/qualification of 'bifurcated' secondary finger ridges.  Bifurcated secondary ridges are defined in this study as cases where a primary finger ridge has split on its descent from a prominent ridge.  Exceptions were noted and corrected where one segment of the bifurcated secondary ridge qualified for inclusion due to a passing aspect test value, where its pair-mate did not (normally by a small margin).  In these cases, both secondary bifurcated ridge segments were trimmed to the primary finger ridge endpoint (the point of departure) to avoid inconsistency in applying differing protection to two similar landforms, however separated by a highly specific test value.</procdesc>
+<srcused>Aspect-test Ridgelines</srcused>
+<procdate>Winter 2007</procdate>
+<srcprod>Ridgelines Qualifying as City of Asheville Protected Mountain Ridges</srcprod>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>242</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.005208</absres>
+<ordres>0.005208</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983 (2001)</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>North American Vertical Datum of 1988</altdatum>
+<altres>1.000000</altres>
+<altunits>feet</altunits>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+eng.ENG.PROPOSEDPMRs</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PASS</attrlabl>
+<attrdef>Has the Ridgeline passed all criteria in the model?</attrdef>
+<attrdefs>City of Asheville Transportation &amp; Engineering Department GIS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Y</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>CoA Staff</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+</edom>
+</attrdomv>
+<begdatea>Winter 2007</begdatea>
+<enddatea>Winter 2007</enddatea>
+</attr>
+<attr>
+<attrlabl>COMMENTS</attrlabl>
+<attrdef>General Comments</attrdef>
+<attrdefs>City of Asheville Transportation &amp; Engineering Department GIS</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Narrative Comments</edomv>
+<edomvd>Narrative Comments</edomvd>
+</edom>
+</attrdomv>
+<begdatea>Winter 2007</begdatea>
+<enddatea>Winter 2007</enddatea>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville Information &amp; Technology Services Department</cntorg>
+</cntorgp>
+<cntpos>Help Desk</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntemail>WebGIS@ashevillenc.gov OR helpdesk@ashevillenc.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Vector-based geometry with attribution</resdesc>
+<distliab>The City of Asheville prepares and uses this information for its own purposes.  This information may not be suitable for other purposes.  This information is provided "as is."</distliab>
+<stdorder>
+<fees>Unknown</fees>
+<ordering>Please contact the City of Asheville ITS Help Desk @ helpdesk@ashevillenc.gov</ordering>
+<turnarnd>Order# / Workload dependent</turnarnd>
+</stdorder>
+<custom>Please contact the City of Asheville GIS Coordinator or the metadata author.</custom>
+<techpreq>None.</techpreq>
+<availabl>
+<timeinfo>
+<sngdate>
+<caldate>Winter 2007</caldate>
+</sngdate>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>20100416</metd>
+<metrd>None.</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville Transportation &amp; Engineering Department</cntorg>
+<cntper>Nick Harvey GISP, M.A.</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+<hours>8:30 am to 5:00 pm M-F</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None.</metac>
+<metuc>None.</metuc>
+<metsi>
+<metsc>Unclassified</metsc>
+<metshd>Due to necessary simplification of the related UDO revision language, this documentation report is provided as a technical supplement to the qualification language provided in the 2007 revisions to the UDO.</metshd>
+</metsi>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Asheville</origin>
+<pubdate>20080301</pubdate>
+<title>Asheville Zoning Districts</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Zoning District polygons covering the City of Asheville.</abstract>
+<purpose>The purpose of the Zoning Districts is to support planning efforts in the City of Asheville and to represent various zoning classes throughout the city.</purpose>
+<supplinf>Last series of zoning edits completed in March 2008 by Stephanie Osbourn for the planning department.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20080301</caldate>
+<time>unknown</time>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.692570</westbc>
+<eastbc>
+-82.453328</eastbc>
+<northbc>
+35.660997</northbc>
+<southbc>
+35.412046</southbc>
+</bounding>
+</spdom>
+<keywords>
+</keywords>
+<accconst>This data has been developed using public funds. The data is therefore in the public domain. Requestors agree that they will not sell this data, will not sell access to the data, nor will they provide for such to be sold except as allowed in NC General Statutes Chapter 132. As a condition of providing electronic GIS data, the City of Asheville reserves the right to require that the data requester agree in writing that the data will not be resold or otherwise used for trade or commercial purposes. The City of Asheville reserves the right to license clients to reproduce GIS data for royalty fees based on the resale of the data and or based on a reciprocal agreement of products, services, or data.</accconst>
+<useconst>The City of Asheville acquires, develops, maintains and uses GIS data in support of its internal business functions and the public services it provides.  The GIS data which the City of Asheville distributes and to which it provides access may not be suitable for other purposes or uses.  It is the requestor's responsibility to verify any information derived from the GIS data before making any decisions or taking any actions based on the information.
+
+The City of Asheville shall not be held liable for any errors in the GIS data.  This includes errors of omission, commission, errors concerning the content of the data, and relative and positional accuracy of the data.   Source information used for these data may have been collected at different scales, times or definitions, resulting in inconsistencies among features represented together on this map.  Primary sources from which these data were compiled must be consulted for verification of information contained in the data.  The City of Asheville will not re-distribute data developed from other organizations.  Parcel data was prepared for the inventory of real property found within this jurisdiction, and is compiled from recorded deeds, plats, and other public records and data.   Users of the data are hereby notified that the aforementioned public primary information sources should be consulted for verification of the information.   The City of Asheville assumes no legal responsibility for this information.  Data are presented using the North Carolina State Plane Coordinate System 1983 North American Datum.  Horizontal measurement units are in feet.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville</cntorg>
+</cntorgp>
+<cntpos>GIS Analyst - IT Services</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28802</postal>
+</cntaddr>
+<cntvoice>(828) 259-5510</cntvoice>
+<cntfax>(828) 259-5509</cntfax>
+<cntemail>webgis@ashevillenc.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<secinfo>
+<secsys>FIPS Pub 199</secsys>
+<secclass>Unclassified</secclass>
+<sechandl>Standard Technical Controls</sechandl>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>No test have been performed to assess attribute accuracy.</attraccr>
+</attracc>
+<logic>Logical consistency tested to ensure that polygons do not overlap.</logic>
+<complete>Data set is complete.</complete>
+<posacc>
+<horizpa>
+<horizpar>No tests were done to verify horizontal accuracy.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\DOCUME~1\SCOTTB~1\LOCALS~1\Temp\xml2DE.tmp</srcused>
+<procdate>20110711</procdate>
+<proctime>09145600</proctime>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>590</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000001</absres>
+<ordres>0.000001</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+ZoningDistricts</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DISTRICTS</attrlabl>
+</attr>
+<attr>
+<attrlabl>MUNICODEPA</attrlabl>
+</attr>
+<attr>
+<attrlabl>ACREAGE</attrlabl>
+</attr>
+<attr>
+<attrlabl>SQUAREMILE</attrlabl>
+</attr>
+<attr>
+<attrlabl>PP_WEIGHT</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE_Leng</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE_Area</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville</cntorg>
+</cntorgp>
+<cntpos>GIS Analyst - IT Services</cntpos>
+<cntvoice>828-259-5510</cntvoice>
+<cntfax>828-259-5509</cntfax>
+<cntemail>webgis@ashevillenc.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>The City of Asheville makes no warranties, guarantees or representations as to the accuracy of its GIS data, and assumes no liability or responsibility for any errors or omissions in its GIS data. Independent verification of all information derived from the GIS data is strongly recommended. Under no circumstances will the City of Asheville be held liable to any party who relies on information derived from its GIS data, and anyone relying on its GIS data does so at his/her own risk.
+The DATA REQUESTER AGREES TO INDEMNIFY THE CITY OF ASHEVILLE, INCLUDING COURT COSTS AND REASONABLE ATTORNEY FEES, FOR ANY CLAIMS FILED AGAINST THE CITY INVOLVING ANY ERRORS OR OMISSIONS IN THE CITY'S DATA AS IT RELATES TO THE DATA REQUESTOR'S PURPOSE.
+The distribution of this GIS data by the City of Asheville does not create any right or benefit, substantive or procedural, enforceable at law or equity, by officers, its employees, or any other person.</distliab>
+</distinfo>
+<metainfo>
+<metd>20100909</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville</cntorg>
+</cntorgp>
+<cntpos>GIS Analyst - IT Services</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>70 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+</cntaddr>
+<cntvoice>828-259-5510</cntvoice>
+<cntfax>828-259-5509</cntfax>
+<cntemail>webgis@ashevillenc.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>

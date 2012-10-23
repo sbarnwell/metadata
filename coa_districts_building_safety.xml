@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>City of Asheville, Planning &amp; Development, Planning Services, Planner II</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>gis.GIS.BldgSafetyDistricts</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=GIS; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This feature data set describes the existing of jurisdiction for City of Asheville, North Carolina.  Area features represented include Corporate Limits and Extra-Territorial Jurisdiction.</abstract>
+<purpose>The ActiveJurisdictions feature data set is used to record, query, analyze, and present jurisdictional conditions for the City of Asheville.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>June 30, 2003</caldate>
+<time>12:00am</time>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.692919</westbc>
+<eastbc>
+-82.453318</eastbc>
+<northbc>
+35.668588</northbc>
+<southbc>
+35.412046</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekey>Corporate Limits</themekey>
+<themekey>Corporate</themekey>
+<themekey>Limits</themekey>
+<themekey>City Limits</themekey>
+<themekey>Extra</themekey>
+<themekey>Territorial</themekey>
+<themekey>Jurisdiction</themekey>
+<themekey>ETJ</themekey>
+<themekey>Incorporated</themekey>
+<themekey>Area</themekey>
+<themekey>Asheville</themekey>
+<themekey>North Carolina</themekey>
+<themekey>NC</themekey>
+</theme>
+<place>
+<placekey>Asheville</placekey>
+<placekey>North Carolina</placekey>
+<placekey>Carolina</placekey>
+<placekey>Smoky Mountains</placekey>
+<placekey>Appalachian Mountains</placekey>
+<placekey>Western North Carolina</placekey>
+<placekey>WNC</placekey>
+<placekey>USA</placekey>
+<placekey>South East</placekey>
+<placekey>SouthEast</placekey>
+<placekey>Carolinas</placekey>
+<placekey>Blue Ridge</placekey>
+<placekey>Blue Ridge Parkway</placekey>
+<placekey>Biltmore</placekey>
+</place>
+</keywords>
+<accconst>Access to this data is limited by Asheville's GIS Data and Map Services User Agreement, available at this URL:  
+http://www.ci.asheville.nc.us/gisinfo/PublicAccess/EndUserAgreement.htm</accconst>
+<useconst>Users of this data will not sell, nor will they provide for the sale of the publicly owned GIS data distributed to them by the City of Asheville except as allowed by North Carolina Public Records Law (NC GS Chapter 132-10).
+
+Users of this data will not sell access to, nor will they provide for access to be sold to the publicly owned GIS data distributed to them by the City of Asheville except as allowed by North Carolina Public Records Law (NC GS Chapter 132-10).</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Carter Pettibone</cntper>
+<cntorg>City of Asheville, North Carolina</cntorg>
+</cntperp>
+<cntpos>Planner II</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>P.O. Box 7148</address>
+<city>Asheville</city>
+<state>North Carolina</state>
+<postal>28802</postal>
+<country>United States of America</country>
+</cntaddr>
+<cntvoice>(828) 259-5798</cntvoice>
+<cntfax>(828) 259-5428</cntfax>
+<cntemail>carterp@mail.ci.asheville.nc.us</cntemail>
+<hours>8:30am - 5:00pm</hours>
+<cntinst>Please contact Asheville's GIS Coordinator (828.259.5722) for data requests, access and usage stipulations, and other general GIS-related questions.</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>City of Asheville, North Carolina
+Department:  
+Division:</datacred>
+<secinfo>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Not tested</attraccr>
+</attracc>
+<logic>Not tested</logic>
+<complete>Not tested</complete>
+<posacc>
+<horizpa>
+<horizpar>Not tested, known errors exist</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srcscale>1:1200, 1:2400, 1:4800</srcscale>
+</srcinfo>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>M:\GISTools\MetadataTemplate.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>M:\GISTools\MetadataTemplate.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\GISWork\Projects\PlanningDatabase\Template.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Service=sde:sqlserver:coa_gis1; Database=gis; User=sde; Version=sde.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused></srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=coa_gis1; Service=esri_sde; Database=gis; User=timminter; Version=sde.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=coa_gis; Service=esri_sde; Database=gis; User=gis; Version=SDE.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=coa_gis; Service=esri_sde; Database=gis; User=gis; Version=SDE.DEFAULT</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>29</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000044</absres>
+<ordres>0.000044</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+gis.GIS.BldgSafetyDistricts</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREANAME</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.area</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+</attr>
+<attr>
+<attrlabl>OBJECTID_1</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Tim Minter</cntper>
+<cntorg>City of Asheville, Finance Department, Information Services Division</cntorg>
+</cntperp>
+<cntpos>GIS Coordinator</cntpos>
+<cntvoice>(828) 259-5722</cntvoice>
+<cntfax>(828) 259-5509</cntfax>
+<cntemail>timm@mail.ci.asheville.nc.us</cntemail>
+<hours>8:00am - 4:30pm</hours>
+</cntinfo>
+</distrib>
+<resdesc>Internet Feature Streaming Map Service:  http://www.ci.asheville.nc.us &gt; MRGAC
+Clients capable of reading ESRI's ArcIMS feature streaming data services can gain free access to this and other GIS data owned by City of Asheville via the path given above.  
+
+Manual Order Process:  http://www.ci.asheville.nc.us/gisinfo/PublicAccess/policy.htm</resdesc>
+<distliab>This GIS data is provided and maintained by City of Asheville staff and management as general information for Asheville citizens, businesses, organizations, visitors, and governmental agencies. The GIS data may contain
+information collected from and references to other sources, but such references should not be considered as an endorsement of or recommendation by the City of Asheville, or by any other person or entity identified herein.
+
+The City of Asheville makes no warranties, guarantees or representations as to the accuracy of its GIS data, and assumes no liability or responsibility for any errors or omissions in its content. Independent verification of all information derived from the GIS data is strongly recommended. Under no circumstances will the City of Asheville be held liable to any party who relies on information derived from this GIS data, and anyone relying on this GIS data does so at his/her own risk.
+
+The distribution of this GIS data by the City of Asheville does not create any right or benefit, substantive or procedural, enforceable at law or equity, by a party against the City of Asheville, its agencies, its instrumentalities, its officers, its employees, or any other person.</distliab>
+<stdorder>
+<nondig>http://www.ci.asheville.nc.us/gisinfo/PublicAccess/policy.htm</nondig>
+<fees>Free or $25 per CD</fees>
+<ordering>http://www.ci.asheville.nc.us/gisinfo/PublicAccess/policy.htm</ordering>
+<turnarnd>One to Three Weeks</turnarnd>
+</stdorder>
+<custom>http://www.ci.asheville.nc.us/gisinfo/PublicAccess/policy.htm</custom>
+</distinfo>
+<metainfo>
+<metd>20100817</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+<city>REQUIRED: The city of the address.</city>
+<state>REQUIRED: The state or province of the address.</state>
+<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+</cntaddr>
+<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metsi>
+<metsc>Unclassified</metsc>
+</metsi>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

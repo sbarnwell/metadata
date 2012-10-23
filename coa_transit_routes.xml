@@ -1,0 +1,317 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Asheville</origin>
+        <pubdate>20100617</pubdate>
+        <title>coagis.COAGIS.COA_TRANSIT_BUS_ROUTES</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Asheville, NC</pubplace>
+          <publish>City of Asheville, NC</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Asheville Transit System (ATS) Bus Routes represent the locations of public transit service throughout the City of Asheville. Each route number is associated with the street centerlines over which the route travels.</abstract>
+      <purpose>The purpose of the ATS Bus Routes is to provide an accurate representation of where ATS bus service is provided. This data can be used by residents for planning transit trips. It can be also be used by Transit staff to plan route changes over time to ensure the highest level of customer service.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100617</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-82.634035</westbc>
+        <eastbc>-82.311677</eastbc>
+        <northbc>35.649904</northbc>
+        <southbc>35.428326</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bus</themekey>
+        <themekey>transit</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Buncombe</placekey>
+        <placekey>Asheville</placekey>
+        <placekey>North Carolina</placekey>
+      </place>
+    </keywords>
+    <accconst>This data has been developed using public funds. The data is therefore in the public domain. Requestors agree that they will not sell this data, will not sell access to the data, nor will they provide for such to be sold except as allowed in NC General Statutes Chapter 132. As a condition of providing electronic GIS data, the City of Asheville reserves the right to require that the data requester agree in writing that the data will not be resold or otherwise used for trade or commercial purposes. The City of Asheville reserves the right to license clients to reproduce GIS data for royalty fees based on the resale of the data and or based on a reciprocal agreement of products, services, or data.</accconst>
+    <useconst>The City of Asheville acquires, develops, maintains and uses GIS data in support of its internal business functions and the public services it provides. The GIS data which the City of Asheville distributes and to which it provides access may not be suitable for other purposes or uses. It is the requestor's responsibility to verify any information derived from the GIS data before making any decisions or taking any actions based on the information. The City of Asheville shall not be held liable for any errors in the GIS data. This includes errors of omission, commission, errors concerning the content of the data, and relative and positional accuracy of the data. Source information used for these data may have been collected at different scales, times or definitions, resulting in inconsistencies among features represented together on this map. Primary sources from which these data were compiled must be consulted for verification of information contained in the data. The City of Asheville will not re-distribute data developed from other organizations. Parcel data was prepared for the inventory of real property found within this jurisdiction, and is compiled from recorded deeds, plats, and other public records and data. Users of the data are hereby notified that the aforementioned public primary information sources should be consulted for verification of the information. The City of Asheville assumes no legal responsibility for this information. Data are presented using the North Carolina State Plane Coordinate System 1983 North American Datum. Horizontal measurement units are in feet.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Asheville</cntorg>
+        </cntorgp>
+        <cntpos>GIS Analyst - IT Services</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>70 Court Plaza</address>
+          <city>Asheville</city>
+          <state>NC</state>
+          <postal>28802</postal>
+        </cntaddr>
+        <cntvoice>(828) 259-5510</cntvoice>
+        <cntfax>(828) 259-5509</cntfax>
+        <cntemail>webgis@ashevillenc.gov</cntemail>
+        <cntinst>http://www.ashevillenc.gov</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>FIPS Pub 199</secsys>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attribute accuracy for the bus routes is excellent based on a deductive estimate of the attribute entry process. Attributes for this data set are limited to the route number and a status attribute that diffentiates current from planned routes. As each route was created in ArcGIS 9.3, the attributes were populated for that route using the "Attribute Calculator" for each segment in each route.</attraccr>
+    </attracc>
+    <logic>Logical consistency tested to ensure that all chains intersect at nodes.</logic>
+    <complete>Data set is complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No tests were done to verify horizontal accuracy. The horizontal accuracy of the ATS Bus Routes is limited by the horizontal accuracy of the source data sets, the lowest of which is 4800.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>City of Asheville Transit System</origin>
+            <pubdate>20100301</pubdate>
+            <title>Asheville Transit Routes</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Asheville, NC</pubplace>
+              <publish>City of Asheville Transit System</publish>
+            </pubinfo>
+            <onlink>http://www.ashevillenc.gov/residents/transportation/city_bus/default.aspx?id=946</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20100301</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>ATS_Routes</srccitea>
+        <srccontr>The existing route maps and route descriptions were compared to the Buncombe County street centerlines to identify which centerlines comprise the bus route network.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Buncombe County GIS Division</origin>
+            <pubdate>20060401</pubdate>
+            <title>Buncombe County 2006 Digital Orthophotography</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Asheville, NC</pubplace>
+              <publish>Buncombe County GIS Division</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>400</srcscale>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060401</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>BC_2006_Ortho</srccitea>
+        <srccontr>2006 digital orthophotography was used to determine the proper location for bus route segments that travel through parking lots or other areas not represented in the street centerlines. This process was done through on-screen digitizing in ArcMap 9.3.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Buncombe County GIS Division</origin>
+            <pubdate>20100501</pubdate>
+            <title>Buncombe County Street Centerlines</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Asheville, NC</pubplace>
+              <publish>Buncombe County GIS Division</publish>
+            </pubinfo>
+            <onlink>http://www.buncombecounty.org/governing/depts/GIS/dataDownload.asp</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20100501</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>BC_Streets</srccitea>
+        <srccontr>Buncombe County street centerlines provide the geometry for nearly all of the Asheville Transit System bus routes. The only additional geometry was for bus routes that travel through parking lots or other areas that are not part of the street centerline network. In those cases, the additional parking lot segments were added to the bus routes to maintain topological integrity with the street centerlines, i.e. they are snapped together.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Created line feature class by selecting and exporting all street centerlines from Buncomble County that are part of the Asheville Transist System.</procdesc>
+        <srcused>BC_2006_Ortho</srcused>
+        <srcused>ATS_Routes</srcused>
+        <srcused>BC_Streets</srcused>
+        <procdate>20100428</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Digitized route locations where bus routes do not coincide with street centerlines such as parking lots. Snapped new line segments to the existing street centerline network. When necessary, split street centerlines at locations where new segments intersect existing centerlines to maintain propery topology. For each route, created an attribute with the route number and a separate status attribute to differentiate current routes from planned routes.</procdesc>
+        <srcused>BC_2006_Ortho</srcused>
+        <srcused>ATS_Routes</srcused>
+        <srcused>BC_Streets</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Completed updates to bus routes 9, 13, and 16.</procdesc>
+        <srcused>ATS_Routes</srcused>
+        <procdate>20101105</procdate>
+        <proctime>101739</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Checked arc-node topology by verifying that there are no dangling lines. Unintentional dangling lines were corrected.</procdesc>
+        <srcused>BC_2006_Orthos</srcused>
+        <srcused>BC_Streets</srcused>
+        <procdate>20100429</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>1559</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane North Carolina FIPS 3200 Feet</mapprojn>
+          <lambertc>
+            <stdparll>34.33333333333334</stdparll>
+            <stdparll>36.16666666666666</stdparll>
+            <longcm>-79.0</longcm>
+            <latprjo>33.75</latprjo>
+            <feast>2000000.002616666</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00001</absres>
+            <ordres>0.00001</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>coagis.COAGIS.COA_TRANSIT_BUS_ROUTES</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>objectid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE_NUMBER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREET_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CENTERLINE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Route_Type</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_BY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120518</metd>
+    <metfrd>20110617</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Asheville</cntorg>
+          <cntper>GIS Division</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>70 Court Plaza</address>
+          <city>Asheville</city>
+          <state>NC</state>
+          <postal>28802</postal>
+        </cntaddr>
+        <cntvoice>(828)259-5510</cntvoice>
+        <cntfax>(828) 259-5509</cntfax>
+        <cntemail>webgis@ashevillenc.gov</cntemail>
+        <cntinst>http://www.ashevillenc.gov</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metsc>Unclassified</metsc>
+    </metsi>
+  </metainfo>
+</metadata>

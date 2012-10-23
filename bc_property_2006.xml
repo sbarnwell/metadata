@@ -1,0 +1,2734 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Buncombe County, North Carolina</origin>
+<pubdate>2002</pubdate>
+<pubtime>Unknown</pubtime>
+<title>gis.GIS.PROPERTY2006</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa_gis; Service=5151; Database=sde; User=PennState; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This GIS data set was derived from a variety of source documents, including plats of survey, subdivision plats, certified survey maps, records of deed and row plats. These documents were of varying scales and from dates ranging from the late 1940's to present. These maps provide a useful representation of the geometry of the tax parcels and is suitable for its intended purpose.</abstract>
+<purpose>This data was created to serve as an inventory of property owners for use by various county departments to determine septic and building permitting, voter and tax information, planning, social services, and use for the general public.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2002</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Daily</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.894303</westbc>
+<eastbc>
+-82.171466</eastbc>
+<northbc>
+35.829392</northbc>
+<southbc>
+35.406016</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115</themekt>
+<themekey>property</themekey>
+<themekey>land</themekey>
+<themekey>cadastre</themekey>
+<themekey>parcels</themekey>
+<themekey>Planning</themekey>
+<themekey>cadastral</themekey>
+</theme>
+<place>
+<placekt>NONE</placekt>
+<placekey>Buncombe County</placekey>
+<placekey>North Carolina</placekey>
+<placekey>Western North Carolina</placekey>
+</place>
+</keywords>
+<accconst>This data has been develped using public funds. The data is therefore in the public domain. Requestors agree that they will not sell this data, will not sell access to the data, nor will they provide for such to be sold except as allowed in NC General Statues Chapter 132. As a condition of providing electronic GIS data, Buncombe County reserves the right to require that the data requestor agree in writing that the data will not be resold or otherwise used for trade or commercial purposes. Buncombe County reserves the right ot license clients to reproduce GIS data for royalty fees based on the resale of the data and or based on a reciprocal agreement of products, services, or data.</accconst>
+<useconst>The County of Buncombe acquires, develops, maintains and uses GIS data in support of its internal business functions and the public services it provides. The GIS data which Buncombe County distributes and to which it provides access may not be suitable for other purposes or uses. It is the requestor's responsibility to verify any information derived from the GIS data before making any decisions or taking any actions based on the information.
+
+Source information used for these data may have been collected at different scales, times or definitions, resulting in inconsistencies among features represented together on this map. Primary sources from which these data were compiled must be consulted for verification of information contained in the data. Buncombe County will not re-distribute data developed from other organizations. Parcel data was prepared for the inventory of real property found within this jurisdiction, and is compiled from recorded deeds, plats, and other public records and data. Users of the data are hereby notified that the aforementioned public primary information sources should be consulted for verification of the information. Buncombe County assumes no legal responsibility for this information. Data are presented using the North Carolina State Coordinate System 1927 North American Datum. Horizontal measurement units are in feet.
+
+Buncombe County does not guarantee that the data and map serices will be available to users without interruption or error. Furthermore, the County of Buncombe may modify or remove map servies and access methods at will.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Buncombe County Land Records</cntorg>
+<cntper>Luanne Cox</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>60 Court Plaza</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>(828)250-4973</cntvoice>
+<cntemail>monteim@co.buncombe.nc.us</cntemail>
+<hours>8:30 A.M. - 5:00 P.M. M-F</hours>
+</cntinfo>
+</ptcontac>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+</idinfo>
+<dataqual>
+<logic>No dangles or undershoots allowed. No minimum polygon size. Duplicate lines not allowed. Intersect only where intended. Pin number calculated based on the location of the x and y coordinates. The property layer is maintained from deeds, private surveys, and recorded plats. Data integrity verified by ESRI ArcGIS ArcInfo software version 8.3.</logic>
+<complete>Land Records receives a recorded document (deed or plat) from the Register of Deeds office, then updates to the property layer are done to reflect the changes needed per the documents.</complete>
+<lineage>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>L:\BC_GISLIB\documentation\metadata\bcproperty.xml</srcused>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+<srcused>Server=bcgis; Service=esri_sde; Database=buncosde; User=buncosde; Version=SDE.DEFAULT</srcused>
+</procstep>
+<procstep>
+<procdesc>Metadata imported.</procdesc>
+<srcused>C:\work\export\property.xml</srcused>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>113799</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>105460</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>105540</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>3789</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>44980</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>128609</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Label point</sdtstype>
+<ptvctcnt>409782</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000103</absres>
+<ordres>0.000103</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+gis.GIS.PROPERTY2006</enttypl>
+<enttypd>geometry of tax parcels</enttypd>
+<enttypds>variety of source documents, including plats of survey, subdivision plats, certified survey maps, records of deed and row plats</enttypds>
+</enttyp>
+<attr>
+<attrlabl>PINNUM</attrlabl>
+<attrdef>Property Identification Number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PINLOT</attrlabl>
+<attrdef>Pin Lot</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OWNER</attrlabl>
+<attrdef>Owner of Parcel (as seen on Deed)</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Property owner</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDBOOK</attrlabl>
+<attrdef>Deed Book</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDPAGE</attrlabl>
+<attrdef>Deed Page</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PLATBOOK</attrlabl>
+<attrdef>PlatBook</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PLATPAGE</attrlabl>
+<attrdef>PlatPage</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBNAME</attrlabl>
+<attrdef>Subdivision Name</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBLOTS</attrlabl>
+<attrdef>Subdivision Lots</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBBLKS</attrlabl>
+<attrdef>Subdivision Blocks</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBSECTS</attrlabl>
+<attrdef>Subdivision Sections</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STREET</attrlabl>
+<attrdef>Street name (situs street name)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>Created by developer of subdivision and approved by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HSENO</attrlabl>
+<attrdef>House Number (situs house number)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUFFIX</attrlabl>
+<attrdef>House number suffix (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIRECTION</attrlabl>
+<attrdef>Predirection for street name (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+<attrdef>Street Type (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TOWNSHIP</attrlabl>
+<attrdef>Township</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>6</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>7</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>8</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>9</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>10</edomv>
+<edomvd>Haw Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>11</edomv>
+<edomvd>Beaverdam</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>12</edomv>
+<edomvd>Hazel</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>13</edomv>
+<edomvd>Biltmore</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>14</edomv>
+<edomvd>Avery Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>15</edomv>
+<edomvd>Lower Hominy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>16</edomv>
+<edomvd>Upper Hominy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>17</edomv>
+<edomvd>Leicester</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>18</edomv>
+<edomvd>Sandy Mush</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>19</edomv>
+<edomvd>Limestone</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>20</edomv>
+<edomvd>Fairview</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>21</edomv>
+<edomvd>Swannanoa</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>22</edomv>
+<edomvd>Reems Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>23</edomv>
+<edomvd>Flat Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>24</edomv>
+<edomvd>Ivy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>25</edomv>
+<edomvd>Black Mountain</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>27</edomv>
+<edomvd>French Broad</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>28</edomv>
+<edomvd>Broad River</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CALCACRE</attrlabl>
+<attrdef>Calculated Acreage</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<udom>created by Land Records</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ASSEACRE</attrlabl>
+<attrdef>Assessed Acreage</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<udom>acreage recorded on deed</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NACCOUNT</attrlabl>
+<attrdef>Account Number (from Tax Dept Database)</attrdef>
+<attrdefs>Tax Department</attrdefs>
+<attrdomv>
+<udom>a sequentially generated numeric number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDDATE</attrlabl>
+<attrdef>Deed Date</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<udom>date the deed was recorded</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STAMPS</attrlabl>
+<attrdef>Tax Stamps</attrdef>
+<attrdefs>GS 105-228.30(a)</attrdefs>
+<attrdomv>
+<udom>number of stamps (% of purchase price)</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INS</attrlabl>
+<attrdef>Instruments</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>instruments</codesetn>
+<codesets>Land Records</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>REASON</attrlabl>
+<attrdef>maintenance reason code for parcel</attrdef>
+<attrdefs>Internal</attrdefs>
+<attrdomv>
+<edom>
+<edomv>C</edomv>
+<edomvd>Combine</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>O</edomv>
+<edomvd>Acreage adjustment or acreage adjustment with transfer</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>T</edomv>
+<edomvd>Transfer</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>E</edomv>
+<edomvd>Adminstrative changes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>D</edomv>
+<edomvd>Discovery</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>New move pin number</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>F</edomv>
+<edomvd>Result from split</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>M</edomv>
+<edomvd>Mother record pin number of moved pin</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>S</edomv>
+<edomvd>Mother record old pin number split</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>K</edomv>
+<edomvd>Killed</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>G</edomv>
+<edomvd>Gone - retire pin number</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>Tax rate code - Does the parcel fall within County jurisdiction for some services</attrdef>
+<attrdefs>Buncombe County 2002/2003 tax rates 6 year chart (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>BUN</edomv>
+<edomvd>Buncombe County</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CITY</attrlabl>
+<attrdef>Tax rate code - Is parcel in the City of Asheville jurisdiction</attrdef>
+<attrdefs>Buncombe County 2002/2003 tax rates 6 year chart (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>CAS</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>CWV</edomv>
+<edomvd>Town of Weaverville</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>CWO</edomv>
+<edomvd>Town of Woodfin</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>CBM</edomv>
+<edomvd>Town of Black Mountain</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>CMT</edomv>
+<edomvd>Town of Montreat</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>CBF</edomv>
+<edomvd>Town of Biltmore Forest</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FIRE</attrlabl>
+<attrdef>Tax rate code - fire district</attrdef>
+<attrdefs>Buncombe County 2002/2003 tax rates 6 year chart (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>FBA</edomv>
+<edomvd>Barnardsville Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FBE</edomv>
+<edomvd>Beaverdam Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFA</edomv>
+<edomvd>Fairview Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFL</edomv>
+<edomvd>Fletcher Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFB</edomv>
+<edomvd>French Broad Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FHC</edomv>
+<edomvd>Haw Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FJU</edomv>
+<edomvd>Jupiter Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FLE</edomv>
+<edomvd>Leicester Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FNB</edomv>
+<edomvd>North Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRC</edomv>
+<edomvd>Reems Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRI</edomv>
+<edomvd>Riceville Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FSK</edomv>
+<edomvd>Skyland Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FUH</edomv>
+<edomvd>Upper Hominy Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FWB</edomv>
+<edomvd>West Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FWO</edomv>
+<edomvd>Woodfin Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FBR</edomv>
+<edomvd>Broad River Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FEB</edomv>
+<edomvd>East Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FEC</edomv>
+<edomvd>Enka Candler Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FGC</edomv>
+<edomvd>Garren Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRE</edomv>
+<edomvd>Reynolds Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FSW</edomv>
+<edomvd>Swannanoa Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DBE</edomv>
+<edomvd>North Central (Beaverdam) Fire  District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNB</edomv>
+<edomvd>North Central (North Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DRC</edomv>
+<edomvd>North Central (Reems Creek) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DWO</edomv>
+<edomvd>North Central (Woodfin) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DBA</edomv>
+<edomvd>North Easst (Barnardsville) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNN</edomv>
+<edomvd>North East (North Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNR</edomv>
+<edomvd>North East (Reems Creek) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DLE</edomv>
+<edomvd>North West (Leicester) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DWB</edomv>
+<edomvd>North West (West Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DSK</edomv>
+<edomvd>South Buncombe (Skyland) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DAS</edomv>
+<edomvd>Skyland-Biltmore (City of Asheville) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DUH</edomv>
+<edomvd>Upper Hominy Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SCHOOL</attrlabl>
+<attrdef>Tax rate code - special school district</attrdef>
+<attrdefs>Buncombe County 2002/2003 tax rates 6 year chart (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>SAS</edomv>
+<edomvd>Asheville Local Tax School</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>SEN</edomv>
+<edomvd>Enka Consolidated High School</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UNIT</attrlabl>
+<attrdef>Unit Number (usu. apt or condo number)</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPYR</attrlabl>
+<attrdef>Year Updated</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>year of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPMO</attrlabl>
+<attrdef>Month Updated</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>month of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPDA</attrlabl>
+<attrdef>Day Updated</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>day of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CAREOF</attrlabl>
+<attrdef>In Care Of</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion of owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ADDR</attrlabl>
+<attrdef>Owner Mailing Address</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CITYNAME</attrlabl>
+<attrdef>City Name (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (city) owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STATE</attrlabl>
+<attrdef>State (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (state) owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ZIP</attrlabl>
+<attrdef>Zip Code (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (zip code) owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASS</attrlabl>
+<attrdef>Land Usage Class</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>105</edomv>
+<edomvd>Residence that also includes lease hold improvement</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>111</edomv>
+<edomvd>Single family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>112</edomv>
+<edomvd>Two family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>113</edomv>
+<edomvd>Three family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>120</edomv>
+<edomvd>Condo without land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>121</edomv>
+<edomvd>Condo with land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>140</edomv>
+<edomvd>Residence on &gt; 3 or &lt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>150</edomv>
+<edomvd>Estate</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>160</edomv>
+<edomvd>Seasonal Residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>171</edomv>
+<edomvd>One mobile home</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>172</edomv>
+<edomvd>Two mobile Homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>173</edomv>
+<edomvd>Three mobile homes family only (not a commercial park)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>175</edomv>
+<edomvd>one house and one mobile home</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>176</edomv>
+<edomvd>one house and two mobile homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>180</edomv>
+<edomvd>two or more residence or two residence with addtl mobile homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>205</edomv>
+<edomvd>farm parcel with lease hold</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>211</edomv>
+<edomvd>farm with one family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>221</edomv>
+<edomvd>poultry</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>222</edomv>
+<edomvd>dairy products</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>223</edomv>
+<edomvd>cattle and hogs</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>224</edomv>
+<edomvd>sheep, wool</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>230</edomv>
+<edomvd>field crops</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>271</edomv>
+<edomvd>mobile home located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>272</edomv>
+<edomvd>two mobile homes located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>273</edomv>
+<edomvd>family mobile home park located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>275</edomv>
+<edomvd>one residence and one mobile home park &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>276</edomv>
+<edomvd>one residence and two mobile homes &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>311</edomv>
+<edomvd>residential vacant lot</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>312</edomv>
+<edomvd>residential lot with small improvement (garage)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>313</edomv>
+<edomvd>lake or waterfront residential vacant lot</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>314</edomv>
+<edomvd>rural track &gt; 3 acres &lt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>315</edomv>
+<edomvd>lot located under water</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>317</edomv>
+<edomvd>condo land (developer owned)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>318</edomv>
+<edomvd>condo land (homeowners association)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>320</edomv>
+<edomvd>vacant agricultural land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>340</edomv>
+<edomvd>vacant commercial land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>360</edomv>
+<edomvd>vacant land government owned</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>400</edomv>
+<edomvd>commercial</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>500</edomv>
+<edomvd>recreational</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>600</edomv>
+<edomvd>exempt</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>700</edomv>
+<edomvd>industrial</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>800</edomv>
+<edomvd>public service</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IMPROV</attrlabl>
+<attrdef>Improvements</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Y</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>No</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EXEMPT</attrlabl>
+<attrdef>Tax Exempt Status</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>EXM</edomv>
+<edomvd>Exempt/Non requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>RXM</edomv>
+<edomvd>Exempt/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>HIS</edomv>
+<edomvd>Historical $50%</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>PXM</edomv>
+<edomvd>Part EXM/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>STA</edomv>
+<edomvd>State Assessment</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PRICED</attrlabl>
+<attrdef>Property Value Determined</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>created by tax dept to determine value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TTLMKT</attrlabl>
+<attrdef>Total Market Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>calculated by adding Land market value + bldg market value + improvements market value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>APPR</attrlabl>
+<attrdef>Appraised Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>land market value less any deferred amount the owner is entitled to and/or any manual overrides</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TAXVAL</attrlabl>
+<attrdef>Tax Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>total appraised value less total exemptions allowed</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LANDUSE</attrlabl>
+<attrdef>Land Use Code</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>A</edomv>
+<edomvd>Present-use/AGRI</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>E</edomv>
+<edomvd>Exempt/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>F</edomv>
+<edomvd>Present-use/Forest</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>H</edomv>
+<edomvd>Present-use/HORT</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PROPCARD</attrlabl>
+<attrdef>Property card link field</attrdef>
+<attrdefs>GIS Dept</attrdefs>
+<attrdomv>
+<udom>Field used to link GIS to the property tax record card</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LANDVAL</attrlabl>
+<attrdef>Land Value</attrdef>
+<attrdefs>Tax Office</attrdefs>
+<attrdomv>
+<udom>land values</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BLDGVAL</attrlabl>
+<attrdef>Building Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>building value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IMPVVAL</attrlabl>
+<attrdef>Improvement Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>improvement value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NEIGHCDE</attrlabl>
+<attrdef>Neighborhood Code (internal use only)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>groups of like properties for valuing and quick maintenance</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.area</attrlabl>
+<attrdef>Area of feature in internal units squared</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>positive real numbers that are automatically generated</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.len</attrlabl>
+<attrdef>Length of feature in internal units</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>positive real numbers that are automatically generated</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+property.pat</enttypl>
+<enttypd>geometry of tax parcels</enttypd>
+<enttypds>variety of source documents, including plats of survey, subdivision plats, certified survey maps, records of deed and row plats</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PROPERTY#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PROPERTY-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TOWNSHIP</attrlabl>
+<attrdef>Township</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>6</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>7</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>8</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>9</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>10</edomv>
+<edomvd>Haw Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>11</edomv>
+<edomvd>Beaverdam</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>12</edomv>
+<edomvd>Hazel</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>13</edomv>
+<edomvd>Biltmore</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>14</edomv>
+<edomvd>Avery Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>15</edomv>
+<edomvd>Lower Hominy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>16</edomv>
+<edomvd>Upper Hominy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>17</edomv>
+<edomvd>Leicester</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>18</edomv>
+<edomvd>Sandy Mush</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>19</edomv>
+<edomvd>Limestone</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>20</edomv>
+<edomvd>Fairview</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>21</edomv>
+<edomvd>Swannanoa</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>22</edomv>
+<edomvd>Reems Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>23</edomv>
+<edomvd>Flat Creek</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>24</edomv>
+<edomvd>Ivy</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>25</edomv>
+<edomvd>Black Mountain</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>27</edomv>
+<edomvd>French Broad</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>28</edomv>
+<edomvd>Broad River</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PARMAP</attrlabl>
+<attrdef>first 4 digits of pin number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SCALE</attrlabl>
+<attrdef>the 5th and 6th digit of the pin number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BLOCK</attrlabl>
+<attrdef>the 7th and 8th digits of the pin number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PINLOT</attrlabl>
+<attrdef>the last 4 digits of the pin number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>WARD</attrlabl>
+<attrdef>old mapping system township number</attrdef>
+<attrdefs>Internal</attrdefs>
+<attrdomv>
+<udom>old township code used by old mapping system</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHEET</attrlabl>
+<attrdef>part of the old mapping system</attrdef>
+<attrdefs>Internal</attrdefs>
+<attrdomv>
+<udom>an internal number representing a portion of what's now the pin number - from an old mapping system</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ORIGLOT</attrlabl>
+<attrdef>original lot information</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ORIGUNIT</attrlabl>
+<attrdef>original unit number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CALCACRE</attrlabl>
+<attrdef>Calculated Acreage</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<udom>created by land records</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ASSEACRE</attrlabl>
+<attrdef>Assessed Acreage</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<udom>acreage recorded on deed</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NACCOUNT</attrlabl>
+<attrdef>account number (from Tax Dept database)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>a sequentially generated numeric number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LINE</attrlabl>
+<attrdef>renderer</attrdef>
+<attrdefs>Internally defined</attrdefs>
+<attrdomv>
+<udom>not currently used</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDBOOK</attrlabl>
+<attrdef>Deed book</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDPAGE</attrlabl>
+<attrdef>Deed page</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DEEDDATE</attrlabl>
+<attrdef>Deed date</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<udom>date the deed was recorded</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STAMPS</attrlabl>
+<attrdef>Tax Stamps</attrdef>
+<attrdefs>GS 105-228.30(a)</attrdefs>
+<attrdomv>
+<udom>number of stamps (%of purchase price)</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>INS</attrlabl>
+<attrdef>Instruments</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<codesetd>
+<codesetn>instruments</codesetn>
+<codesets>Land Records</codesets>
+</codesetd>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ACRE</attrlabl>
+<attrdef>Acreage</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<udom>acreage recorded on deed</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>AFLAG</attrlabl>
+<attrdef>active or inactive status</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<edom>
+<edomv>A</edomv>
+<edomvd>Active</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>I</edomv>
+<edomvd>Inactive</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TAXYEAR</attrlabl>
+<attrdef>year of maintenance on pin number</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<udom>automatically generated through tax system</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TRANDATE</attrlabl>
+<attrdef>transaction date - maintenance of pin</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<udom>automatically system generated</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TRANTIME</attrlabl>
+<attrdef>transaction time - maintenance on pin</attrdef>
+<attrdefs>Land Records</attrdefs>
+<attrdomv>
+<udom>automatically system generated</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>REASON</attrlabl>
+<attrdef>maintenance reason code for parcel</attrdef>
+<attrdefs>Internal</attrdefs>
+<attrdomv>
+<edom>
+<edomv>C</edomv>
+<edomvd>Combine</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>O</edomv>
+<edomvd>Acreage adjustment or acreage adjustment with transfer</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>T</edomv>
+<edomvd>Transfer</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>E</edomv>
+<edomvd>Administrative changes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>D</edomv>
+<edomvd>Discovery</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>New move pin number</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>F</edomv>
+<edomvd>Result from split</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>M</edomv>
+<edomvd>Mother record old pin number of moved pin</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>S</edomv>
+<edomvd>Mother record old pin number split</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>K</edomv>
+<edomvd>Killed</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>G</edomv>
+<edomvd>Gone - retire pin number</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>REASONPIN</attrlabl>
+<attrdef>PIN of parcel, used for audit purposes</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>originating pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>USERID</attrlabl>
+<attrdef>internal mapper number</attrdef>
+<attrdefs>Internal</attrdefs>
+<attrdomv>
+<udom>internally assigned mapper number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>Tax rate cord - does the parcel fall within county jurisdiction for some services</attrdef>
+<attrdefs>Buncombe County tax rates (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>BUN</edomv>
+<edomvd>Buncombe County</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CITY</attrlabl>
+<attrdef>Tax rate code - is parcel in the City of Asheville jurisdiction</attrdef>
+<attrdefs>Buncombe County tax rates (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>CAS</edomv>
+<edomvd>City of Asheville</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>CWV</edomv>
+<edomvd>Town of Weaverville</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>CWO</edomv>
+<edomvd>Town of Woodfin</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>CBM</edomv>
+<edomvd>Town of Black Mountain</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>CMT</edomv>
+<edomvd>Town of Montreat</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>CBF</edomv>
+<edomvd>Town of Biltmore Forest</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>FIRE</attrlabl>
+<attrdef>Tax rate code - fire district</attrdef>
+<attrdefs>Buncombe County tax rates (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>FBA</edomv>
+<edomvd>Barnardsville Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FBE</edomv>
+<edomvd>Beaverdam Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFA</edomv>
+<edomvd>Fairview Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFL</edomv>
+<edomvd>Fletcher Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FFB</edomv>
+<edomvd>French Broad Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FHC</edomv>
+<edomvd>Haw Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FJU</edomv>
+<edomvd>Jupiter Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FLE</edomv>
+<edomvd>Leicester Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FNB</edomv>
+<edomvd>North Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRC</edomv>
+<edomvd>Reems Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRI</edomv>
+<edomvd>Riceville Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FSK</edomv>
+<edomvd>Skyland Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FUH</edomv>
+<edomvd>Upper Hominy Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FWB</edomv>
+<edomvd>West Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FWO</edomv>
+<edomvd>Woodfin Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FBR</edomv>
+<edomvd>Broad River Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FEB</edomv>
+<edomvd>East Buncombe Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FEC</edomv>
+<edomvd>Enka Candler Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FGC</edomv>
+<edomvd>Garren Creek Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FRE</edomv>
+<edomvd>Reynolds Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>FSW</edomv>
+<edomvd>Swannanoa Fire District</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DBE</edomv>
+<edomvd>North Central (Beaverdam) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNB</edomv>
+<edomvd>North Central (North Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DRC</edomv>
+<edomvd>North Central (Reems Creek) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DWO</edomv>
+<edomvd>North Central (Woodfin) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DBA</edomv>
+<edomvd>North East (Barnardsville) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNN</edomv>
+<edomvd>North East (North Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DNR</edomv>
+<edomvd>North East (Reems Creek) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DLE</edomv>
+<edomvd>North West (Leicester) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DWB</edomv>
+<edomvd>North West (West Buncombe) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DSK</edomv>
+<edomvd>South Buncombe (Skyland) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DAS</edomv>
+<edomvd>Skyland-Biltmore (City of Asheville) Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>DUH</edomv>
+<edomvd>Upper Hominy Fire</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SANI</attrlabl>
+<attrdef>sanitation districts</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>currently not used</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SCHOOL</attrlabl>
+<attrdef>Tax rate code - special school district</attrdef>
+<attrdefs>Buncombe County tax rates (Tax Dept)</attrdefs>
+<attrdomv>
+<edom>
+<edomv>SAS</edomv>
+<edomvd>Asheville Local Tax School</edomvd>
+<edomvds>City of Asheville</edomvds>
+</edom>
+<edom>
+<edomv>SEN</edomv>
+<edomvd>Enka Consolidated High School</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MULTSALE</attrlabl>
+<attrdef>multiple parcels sales on a deed</attrdef>
+<attrdefs>Deed</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Y</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>No</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PLATBOOK</attrlabl>
+<attrdef>Plat Book</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PLATPAGE</attrlabl>
+<attrdef>Plat page</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>automatically generated through Register of Deeds</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBNAME</attrlabl>
+<attrdef>Subdivision Name</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBLOTS</attrlabl>
+<attrdef>Subdivision Lots</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBBLKS</attrlabl>
+<attrdef>Subdivision Blocks</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBSECTS</attrlabl>
+<attrdef>Subdivision Sections</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer of subdivision</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HSENO</attrlabl>
+<attrdef>House Number (situs house number)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUFFIX</attrlabl>
+<attrdef>House number suffix (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIRECTION</attrlabl>
+<attrdef>Predirection for street name (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STREET</attrlabl>
+<attrdef>Street name (situs street name)</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by developer of subdivision and approved by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+<attrdef>Street type (situs)</attrdef>
+<attrdefs>Street Administrator</attrdefs>
+<attrdomv>
+<udom>created by street administrator</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SROUTE</attrlabl>
+<attrdef>secondary road name</attrdef>
+<attrdefs>DOT</attrdefs>
+<attrdomv>
+<udom>provided by the department of transporation</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SRSUFFIX</attrlabl>
+<attrdef>secondary road suffix</attrdef>
+<attrdefs>DOT</attrdefs>
+<attrdomv>
+<udom>provided by the department of transporation</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OWNER</attrlabl>
+<attrdef>Owner of parcel (as seen on Deed)</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>property owner</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UNIT</attrlabl>
+<attrdef>unit number (usu. apt or condo number)</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>created by the developer</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PINNUM</attrlabl>
+<attrdef>Parcel Identification Number</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>sequential unique whole numbers that are automatically generated</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPYR</attrlabl>
+<attrdef>Year Updated</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>year of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPMO</attrlabl>
+<attrdef>Month Updated</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>month of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>UPDA</attrlabl>
+<attrdef>day of maintenance to pin number</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>day of maintenance to pin number</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CAREOF</attrlabl>
+<attrdef>In Care Of</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion of owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ADDR</attrlabl>
+<attrdef>Owner mailing address</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CITYNAME</attrlabl>
+<attrdef>City name (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (city) of owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>STATE</attrlabl>
+<attrdef>State (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (state) of owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ZIP</attrlabl>
+<attrdef>Zip code (mailing address)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>portion (zip code) of owner's mailing address</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CLASS</attrlabl>
+<attrdef>Land Usage Class</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>105</edomv>
+<edomvd>residence that also includes lease hold improvement</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>111</edomv>
+<edomvd>single family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>112</edomv>
+<edomvd>two family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>113</edomv>
+<edomvd>three family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>120</edomv>
+<edomvd>condo without land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>121</edomv>
+<edomvd>condo with land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>140</edomv>
+<edomvd>residence on &gt; 3 or &lt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>150</edomv>
+<edomvd>estate</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>160</edomv>
+<edomvd>seasonal residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>171</edomv>
+<edomvd>one mobile home</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>172</edomv>
+<edomvd>two mobile homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>173</edomv>
+<edomvd>three mobile homes family only (not a commercial park)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>175</edomv>
+<edomvd>one house and one mobile home</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>176</edomv>
+<edomvd>one house and two mobile homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>180</edomv>
+<edomvd>two or more residence or two residence with addtl mobile homes</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>205</edomv>
+<edomvd>farm parcel with lease hold</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>211</edomv>
+<edomvd>farm with one family residence</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>221</edomv>
+<edomvd>poultry</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>222</edomv>
+<edomvd>dairy products</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>223</edomv>
+<edomvd>cattle and hogs</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>224</edomv>
+<edomvd>sheep, wool</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>230</edomv>
+<edomvd>field crops</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>271</edomv>
+<edomvd>mobile home located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>272</edomv>
+<edomvd>two mobile homes located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>273</edomv>
+<edomvd>family mobile home park located on &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>275</edomv>
+<edomvd>one residence and one mobile home park &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>276</edomv>
+<edomvd>one residence and two mobile homes &gt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>311</edomv>
+<edomvd>residential vacant lot</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>312</edomv>
+<edomvd>residential lot with small improvement (garage)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>313</edomv>
+<edomvd>lake or waterfront residential</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>314</edomv>
+<edomvd>rural track &gt; 3 acres &lt; 10 acres</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>315</edomv>
+<edomvd>lot located under water</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>317</edomv>
+<edomvd>condo land (developer owned)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>318</edomv>
+<edomvd>condo land (homeowners association)</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>320</edomv>
+<edomvd>vacant agricultural land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>340</edomv>
+<edomvd>vacant commercial land</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>360</edomv>
+<edomvd>vacant land government owned</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>400</edomv>
+<edomvd>commercial</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>500</edomv>
+<edomvd>recreational</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>600</edomv>
+<edomvd>exempt</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>700</edomv>
+<edomvd>industrial</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>800</edomv>
+<edomvd>public service</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>IMPROV</attrlabl>
+<attrdef>Improvements</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Y</edomv>
+<edomvd>Yes</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+<edom>
+<edomv>N</edomv>
+<edomvd>No</edomvd>
+<edomvds>Buncombe County</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>EXEMPT</attrlabl>
+<attrdef>Tax exempt status</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>EXM</edomv>
+<edomvd>Exempt/Non requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>RXM</edomv>
+<edomvd>Exempt/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>HIS</edomv>
+<edomvd>Historical $50%</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>PXM</edomv>
+<edomvd>Part EXM/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>STA</edomv>
+<edomvd>State Assessment</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PRICED</attrlabl>
+<attrdef>Property value determined</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>created by tax dept to determine value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TTLMKT</attrlabl>
+<attrdef>Total Market Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>created by tax dept to determine value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>APPR</attrlabl>
+<attrdef>Appraised Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>created by tax dept to determine value</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TAXVAL</attrlabl>
+<attrdef>Tax Value</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>actual value of property after exemptions, etc.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LANDUSE</attrlabl>
+<attrdef>Land Use Code</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<edom>
+<edomv>A</edomv>
+<edomvd>Present-use/AGRI</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>E</edomv>
+<edomvd>Exempt/Requalify</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>F</edomv>
+<edomvd>Present-use/FOREST</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+<edom>
+<edomv>H</edomv>
+<edomvd>Present-use/HORT</edomvd>
+<edomvds>Buncombe County Tax Office</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NEIGHCDE</attrlabl>
+<attrdef>Neighborhood code (internal use only)</attrdef>
+<attrdefs>Tax Dept</attrdefs>
+<attrdomv>
+<udom>groups of like properties for valuing and quick maintenance</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+property.tatacre</enttypl>
+<enttypd>acreage annotation</enttypd>
+<enttypds>variety of source documents, including plats of survey, subdivision plats, certified survey maps, records of deed and row plats</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ACRE#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ACRE-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+property.tatcent</enttypl>
+<enttypd>parcel centroid annotation</enttypd>
+<enttypds>based on last 4 digits of PIN number</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CENT#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CENT-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+property.tatdim</enttypl>
+<enttypd>parcel imensions annotation</enttypd>
+<enttypds>variety of source documents, including plats of survey, subdivision plats, certified survey maps, records of deed and row plats</enttypds>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIM#</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DIM-ID</attrlabl>
+<attrdef>User-defined feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Buncombe County, GIS</cntorg>
+<cntper>Karen Brown</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>59 Woodfin Place</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>(828)250-6864</cntvoice>
+<cntfax>(828)250-6859</cntfax>
+<cntemail>karen.brown@buncombecounty.org</cntemail>
+<hours>M- F 8:30 - 5:00</hours>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>Buncombe County makes no warranties, guarantees or representations as to the accuracy of its GIS data, and assumes no liability or responsibility for any errors or omissions in its GIS data. Independent verification of all inforamtion derived from the GIS data is strongly recommended. Under no circumstances will Buncombe County be held liable to any party who relies on information derived from its GIS data, and anyone relying on its GIS data does so at his/her own risk. The DATA REQUESTER AGREES TO INDEMNIFY BUNCOMBE COUNTY, INCLUDING COURT COSTS AND REASONABLE ATTORNEY FEES, FOR ANY CLAIMS FILED AGAINST THE COUNTY INVOLVING ANY ERRORS OR OMISSIONS IN THE COUNTY'S DATA AS IT RELATES TO THE DATA REQUESTOR'S PURPOSE.
+
+The distribution of this GIS data by Buncombe County does not create any right or benefit, substantive or procedural, enforceable at law or equity, by officers, its employees, or any other person.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>shapefile, personal GDB, or .e00 format</formname>
+<filedec>zipped</filedec>
+<transize>260.694</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>buncosde</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>$125 per CD</fees>
+<ordering>Contact Buncombe County GIS by email at karen.brown@buncombecounty.org and specifiy what you are requesting. Any work beyond a simply copy of a data dump to CD is considered a special project and will be charged $200 per 15 minute increments.</ordering>
+<turnarnd>2 weeks or less</turnarnd>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20080924</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Buncombe County Land Records</cntorg>
+<cntper>Marie Monteith</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>20 South Spruce Street</address>
+<address>Suite 208</address>
+<city>Asheville</city>
+<state>NC</state>
+<postal>28801</postal>
+</cntaddr>
+<cntvoice>(828)250-4975</cntvoice>
+<cntfax>(828)232-4400</cntfax>
+<cntemail>monteim@co.buncombe.nc.us</cntemail>
+<hours>8:30 A.M. - 5:00 P.M. M-F</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

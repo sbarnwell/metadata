@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>http://www.ncdot.org/it/gis/DataDistribution/DOTData/default.html</origin>
+<pubdate>http://www.ncdot.org/it/gis/DataDistribution/DOTData/default.html</pubdate>
+<title>gis.GIS.NCDOT_BRIDGES</title>
+<geoform>vector digital data</geoform>
+<othercit>These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</othercit>
+<onlink>Server=coa_gis; Service=esri_sde; Database=gis; User=gis; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>NCDOT maintained Bridges for the state</abstract>
+<purpose>Provide access to NCDOT maintained bridge locations. These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</purpose>
+<supplinf>These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>unknown</caldate>
+</sngdate>
+</timeinfo>
+<current>08/17/2007</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-84.396477</westbc>
+<eastbc>
+-75.427562</eastbc>
+<northbc>
+36.614519</northbc>
+<southbc>
+33.768057</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>NCDOT BRIDGES</themekt>
+<themekey>NCDOT BRIDGES</themekey>
+</theme>
+</keywords>
+<accconst>The information contained in the North Carolina Department of Transportation (NCDOT) GIS Unit website is provided as a public service to the citizens of North Carolina and to the Internet community. All information on this website is created for NCDOT Internal DOT use. The information available on the NCDOT GIS Unit is subject to change on a regular basis, without notice. While the NCDOT GIS Unit makes every effort to provide useful and accurate information, NCDOT, its agents, and employees make no warranty as to the correctness or accuracy of the information whether express or implied, in fact or in law, including, without limitation, the implied warranties of merchantability and fitness for a particular use. Users are advised that their use of any NCDOT GIS Data is at their own risk. 
+NCDOT GIS Unit has no control of or liability for information on other pages linked to the GIS Unit website pages. 
+NCDOT GIS Unit does not monitor any linked resources and cannot guarantee their accuracy. Statements, views and opinions included in an independent provider's material are strictly those of the authors. These views may not necessarily represent the opinions or policies of NCDOT, its agents, officers, or employees.
+These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</accconst>
+<useconst>The information contained in the North Carolina Department of Transportation (NCDOT) GIS Unit website is provided as a public service to the citizens of North Carolina and to the Internet community. All information on this website is created for NCDOT Internal DOT use. The information available on the NCDOT GIS Unit is subject to change on a regular basis, without notice. While the NCDOT GIS Unit makes every effort to provide useful and accurate information, NCDOT, its agents, and employees make no warranty as to the correctness or accuracy of the information whether express or implied, in fact or in law, including, without limitation, the implied warranties of merchantability and fitness for a particular use. Users are advised that their use of any NCDOT GIS Data is at their own risk. 
+NCDOT GIS Unit has no control of or liability for information on other pages linked to the GIS Unit website pages. 
+NCDOT GIS Unit does not monitor any linked resources and cannot guarantee their accuracy. Statements, views and opinions included in an independent provider's material are strictly those of the authors. These views may not necessarily represent the opinions or policies of NCDOT, its agents, officers, or employees.
+
+    NC DOT GIS Unit Website Disclaimer  
+ 
+   
+The information contained in the North Carolina Department of Transportation (NCDOT) GIS Unit website is provided as a public service to the citizens of North Carolina and to the Internet community. All information on this website is created for NCDOT Internal DOT use. The information available on the NCDOT GIS Unit is subject to change on a regular basis, without notice. While the NCDOT GIS Unit makes every effort to provide useful and accurate information, NCDOT, its agents, and employees make no warranty as to the correctness or accuracy of the information whether express or implied, in fact or in law, including, without limitation, the implied warranties of merchantability and fitness for a particular use. Users are advised that their use of any NCDOT GIS Data is at their own risk. 
+
+NCDOT GIS Unit has no control of or liability for information on other pages linked to the GIS Unit website pages. 
+
+NCDOT GIS Unit does not monitor any linked resources and cannot guarantee their accuracy. Statements, views and opinions included in an independent provider's material are strictly those of the authors. These views may not necessarily represent the opinions or policies of NCDOT, its agents, officers, or employees.
+These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>http://www.ncdot.org/it/gis/DataDistribution/DOTData/default.html</cntper>
+<cntorg>http://www.ncdot.org/it/gis/DataDistribution/DOTData/default.html</cntorg>
+</cntperp>
+<cntpos>http://www.ncdot.org/it/gis/DataDistribution/DOTData/default.html</cntpos>
+</cntinfo>
+</ptcontac>
+<datacred>These bridge shapefiles contain many kinds of structures currently maintained by the Bridge Maintenance Unit of the NCDOT.  They reflect an ongoing integration between the structures found on the Bridge Inventory Maps, maintained by the NCDOT GIS Mapping section, and in the bridge database, maintained by the Bridge Maintenance Unit.  As such, the shapefiles may not accurately reflect the structures currently in service or the additions and deletions to the Bridge Inventory system which are performed on a daily basis.  Contact the NCDOT Bridge Maintenance Unit for the most accurate information. Contact the NCDOT Bridge Maintenance Unit for the most accurate information.</datacred>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>17754</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.004096</absres>
+<ordres>0.004096</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+gis.GIS.NCDOT_BRIDGES</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BRIDGE_NUM</attrlabl>
+</attr>
+<attr>
+<attrlabl>BSIP_BNUM</attrlabl>
+</attr>
+<attr>
+<attrlabl>STRUCTYPE</attrlabl>
+</attr>
+<attr>
+<attrlabl>FTR_INTRSC</attrlabl>
+</attr>
+<attr>
+<attrlabl>F_CARRIED</attrlabl>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+</distinfo>
+<metainfo>
+<metd>20070817</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+<city>REQUIRED: The city of the address.</city>
+<state>REQUIRED: The state or province of the address.</state>
+<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+</cntaddr>
+<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>CITY OF ASHEVILLE ITS-GAS</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>City of Asheville Utility Billing Locations Paired with E-911 Addresses.</title>
+<geoform>vector digital data</geoform>
+<onlink>Server=coa-gisdb-msql; Service=sde:sqlserver:coa-gisdb-msql; Database=gis; User=gis; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>An SDE view based upon the feature class:  GIS.GIS.HTE_GIS_CUSTOMER_SERVICES and the location crosswalk table which pairs structure-unique BC_Address points with HTE Location ID's where active Water accounts exist.(gis.gis.HTE_LOCID_CIVICADDRESSID_CROSSWALK_vw).</abstract>
+<purpose>To provide paired locations between HTE Location ID's and BC_Address points (e-911).</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>UPDATED DAILY</caldate>
+<time>8:00 AM</time>
+</sngdate>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Daily</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-82.879559</westbc>
+<eastbc>
+-82.178041</eastbc>
+<northbc>
+35.824030</northbc>
+<southbc>
+35.413755</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>UNESCO Online Thesaurus</themekt>
+<themekey>SERVICE</themekey>
+</theme>
+</keywords>
+<accconst>City Staff internal due to presence of account information.</accconst>
+<useconst>City Staff internal use only.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>City of Asheville ITS-GAS</cntorg>
+</cntorgp>
+</cntinfo>
+</ptcontac>
+<datacred>Dave Michelson / Nick Harvey</datacred>
+<native>Microsoft Windows Vista Version 6.0 (Build 6001) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Per City of Asheville HTE-stored utility billing systems and Buncombe County E-911 address points.</attraccr>
+<qattracc>
+<attraccv>Variable</attraccv>
+<attracce>Completely dependent upon specific locations.</attracce>
+</qattracc>
+</attracc>
+<logic>Pairs unique E-911 address locations with unique City of Asheville utility service locations ONLY.  Duplicates have been removed in for address points and associations with multiple HTE locations ids via several intermediate/processing views and tables associated with SQL Server.  Source datasets consist of Buncombe County's E-911 addressing system and HTE Utility systems data.  Please refer to ITS-GAS for questions regarding logical consistency of these processes or either source dataset in detail.</logic>
+<complete>DOES NOT INCLUDE City of Asheville Utility service locations that ARE NOT matched with unique E-911 address locations.</complete>
+<posacc>
+<horizpa>
+<horizpar>Per specifications for Buncombe County's E-911 system.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<procstep>
+<procdesc>Please refer to Dave Michelson for all process prior to the creation of this particular view.  This view isolates the point collection to cases where active services are present and paired with a non-duplicated E-911 address point and Water or "WT" service.</procdesc>
+<procdate>10/22/2010</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>City of Asheville DPW-GIS</cntorg>
+</cntperp>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>42791</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>2000000.002617</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.000250</absres>
+<ordres>0.000250</ordres>
+</coordrep>
+<plandu>survey feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+GIS.GIS.HTE_GIS_CUSTOMERSERVICES</enttypl>
+</enttyp>
+<attr>
+<attrlabl>Expr1</attrlabl>
+</attr>
+<attr>
+<attrlabl>x</attrlabl>
+</attr>
+<attr>
+<attrlabl>y</attrlabl>
+</attr>
+<attr>
+<attrlabl>address</attrlabl>
+</attr>
+<attr>
+<attrlabl>civicaddress_id</attrlabl>
+</attr>
+<attr>
+<attrlabl>zipcode</attrlabl>
+</attr>
+<attr>
+<attrlabl>pinnum</attrlabl>
+</attr>
+<attr>
+<attrlabl>LOCID</attrlabl>
+</attr>
+<attr>
+<attrlabl>HTEPINNUM</attrlabl>
+</attr>
+<attr>
+<attrlabl>HTEADDRESS</attrlabl>
+</attr>
+<attr>
+<attrlabl>HTEFIXEDADDRESS</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICE</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICESTATUS</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICESTARTDATEYR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICESTARTDATEMNT</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICESTARTDATEDY</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICETERMINATIONDATEYR</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICETERMINATIONDATEMNT</attrlabl>
+</attr>
+<attr>
+<attrlabl>SERVICETERMINATIONDATEDY</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_STATUS</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_ADDRESS2</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_ADDRESS3</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_ZIP</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_CARRIERROUTE</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_NAME</attrlabl>
+</attr>
+<attr>
+<attrlabl>ALT_CUSTOMER_ID1</attrlabl>
+</attr>
+<attr>
+<attrlabl>ALT_CUSTOMER_ID2</attrlabl>
+</attr>
+<attr>
+<attrlabl>CUSTOMER_BUSINESSASS</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE_fid</attrlabl>
+</attr>
+<attr>
+<attrlabl>shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.fid</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+</overview>
+</eainfo>
+<distinfo>
+<resdesc>Not for distribution.</resdesc>
+<distliab>Not for distribution.</distliab>
+</distinfo>
+<metainfo>
+<metd>20110228</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Nick Harvey</cntper>
+<cntorg>City of Asheville - DPW-GIS</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+<city>REQUIRED: The city of the address.</city>
+<state>REQUIRED: The state or province of the address.</state>
+<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+</cntaddr>
+<cntvoice>828-259-5421</cntvoice>
+<cntemail>nharvey@ashevillenc.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
