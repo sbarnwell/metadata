@@ -1,0 +1,3 @@
+[ERROR] - ESRITranslator - Required variable is not bound to any value: CodeList: container[_GEN0] fragment[code] clause:  ChooseNode:54284994
+[ERROR] - ESRITranslator - Error [InvalidForOne]: fragment[MD_Distributor] clause:  for-one clause: em:distributorContact(v:Subject, v:Object) <distorCont>
+
